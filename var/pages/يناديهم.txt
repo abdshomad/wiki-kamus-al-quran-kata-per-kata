@@ -1,0 +1,1 @@
+يناديهم = Dia memanggil mereka

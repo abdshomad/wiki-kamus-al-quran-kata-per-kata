@@ -1,0 +1,23 @@
+[001-b] Al-Faatihah (tanpa harokat)
+[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+----
+
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----

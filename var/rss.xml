@@ -1,0 +1,571 @@
+<rss version="2.0">
+<channel>
+<title>Indeks Kamus Al-Quran Kata per Kata</title>
+<link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php</link>
+<description>RSS feed from Indeks Kamus Al-Quran Kata per Kata</description>
+<language>id</language>
+
+	<item>
+	  <title>الكافرون</title>
+	  <pubDate>Fri, 07 Sep 2012 00:14:38 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%83%D8%A7%D9%81%D8%B1%D9%88%D9%86</link>
+	  <description><pre id="diff"><ins>الكافرون = orang-orang kafir</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>يا</title>
+	  <pubDate>Fri, 07 Sep 2012 00:14:23 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D8%A7</link>
+	  <description><pre id="diff"><ins>يا = wahai</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>110-b</title>
+	  <pubDate>Fri, 07 Sep 2012 00:14:14 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=110-b</link>
+	  <description><pre id="diff"><ins>[109:1] [بسم] [الله] [الرحمن] [الرحيم] [قل] [يا] [أيها] [الكافرون]
+[109:2] [لا] [أعبد] [ما] [تعبدون]
+[109:3] [ولا] [أنتم] [عابدون] [ما] [أعبد]
+[109:4] [ولا] [أنا] [عابد] [ما] [عبدتم]
+[109:5] [ولا] [أنتم] [عابدون] [ما] [أعبد]
+[109:6] [لكم] [دينكم] [ولي] [دين]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>111-b</title>
+	  <pubDate>Fri, 07 Sep 2012 00:13:38 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=111-b</link>
+	  <description><pre id="diff"><ins>[111:1] [بسم] [الله] [الرحمن] [الرحيم] [تبت] [يدا] [أبي] [لهب] [وتب]
+[111:2] [ما] [أغنى] [عنه] [ماله] [وما] [كسب]
+[111:3] [سيصلى] [نارا] [ذات] [لهب]
+[111:4] [وامرأته] [حمالة] [الحطب]
+[111:5] [في] [جيدها] [حبل] [من] [مسد]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>112-b</title>
+	  <pubDate>Thu, 06 Sep 2012 23:39:10 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=112-b</link>
+	  <description><pre id="diff"><ins> [بسم] [الله] [الرحمن] [الرحيم]
+[112:1] [قل] [هو] [الله] [أحد]
+[112:2] [الله] [الصمد]
+[112:3] [لم] [يلد] [ولم] [يولد]
+[112:4] [ولم] [يكن] [له] [كفوا] [أحد]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>النفاثات</title>
+	  <pubDate>Thu, 06 Sep 2012 23:35:32 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%86%D9%81%D8%A7%D8%AB%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>النفاثات = para penyihir perempuan yang meniup</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>113-b</title>
+	  <pubDate>Thu, 06 Sep 2012 16:57:58 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=113-b</link>
+	  <description><pre id="diff"><ins>[113:1]|[بسم] [الله] [الرحمن] [الرحيم] [قل] [أعوذ] [برب] [الفلق]
+[113:2]|[من] [شر] [ما] [خلق]
+[113:3]|[ومن] [شر] [غاسق] [إذا] [وقب]
+[113:4]|[ومن] [شر] [النفاثات] [في] [العقد]
+[113:5]|[ومن] [شر] [حاسد] [إذا] [حسد]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 16:57:40 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
+<ins>[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)</ins>
+[114-b] An-Naas (tanpa harokat)
+----
+
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----
+<del></del>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>114-b</title>
+	  <pubDate>Thu, 06 Sep 2012 16:27:50 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=114-b</link>
+	  <description><pre id="diff"><ins>[114:1]|[بسم] [الله] [الرحمن] [الرحيم] [قل] [أعوذ] [برب] [الناس]
+[114:2]|[ملك] [الناس]
+[114:3]|[إله] [الناس]
+[114:4]|[من] [شر] [الوسواس] [الخناس]
+[114:5]|[الذي] [يوسوس] [في] [صدور] [الناس]
+[114:6]|[من] [الجنة] [والناس]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 16:27:21 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
+[114-b] An-Naas<ins> (tanpa harokat)
+----</ins>
+
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 16:27:02 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff"><ins>[001-b] Al-Faatihah (tanpa harokat)
+[114-b] An-Naas
+</ins>
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----
+<del>[001-b] Al-Faatihah (tanpa harokat)</del>
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>صراط</title>
+	  <pubDate>Thu, 06 Sep 2012 16:26:20 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%B5%D8%B1%D8%A7%D8%B7</link>
+	  <description><pre id="diff"><ins>صراط = jalan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الصراط</title>
+	  <pubDate>Thu, 06 Sep 2012 16:26:07 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B7</link>
+	  <description><pre id="diff"><ins>الصراط = jalan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>مالك</title>
+	  <pubDate>Thu, 06 Sep 2012 16:25:45 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%85%D8%A7%D9%84%D9%83</link>
+	  <description><pre id="diff"><ins>مالك = yang menguasai</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>العالمين</title>
+	  <pubDate>Thu, 06 Sep 2012 16:24:49 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%86</link>
+	  <description><pre id="diff"><ins>العالمين = alam semesta</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>001-b</title>
+	  <pubDate>Thu, 06 Sep 2012 16:21:26 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=001-b</link>
+	  <description><pre id="diff"><del>[1:1]|[بسم]</del><ins>[1:1] [بسم]</ins> [الله] [الرحمن] [الرحيم]<del>
+[1:2]|[الحمد]</del><ins>
+[1:2] [الحمد]</ins> [لله] [رب] [العالمين]<del>
+[1:3]|[الرحمن]</del><ins>
+[1:3] [الرحمن]</ins> [الرحيم]<del>
+[1:4]|[مالك]</del><ins>
+[1:4] [مالك]</ins> [يوم] [الدين]<del>
+[1:5]|[إياك]</del><ins>
+[1:5] [إياك]</ins> [نعبد] [وإياك] [نستعين]<del>
+[1:6]|[اهدنا]</del><ins>
+[1:6] [اهدنا]</ins> [الصراط] [المستقيم]<del>
+[1:7]|[صراط]</del><ins>
+[1:7] [صراط]</ins> [الذين] [أنعمت] [عليهم] [غير] [المغضوب] [عليهم] [ولا] [الضالين]
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>001-b</title>
+	  <pubDate>Thu, 06 Sep 2012 16:20:26 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=001-b</link>
+	  <description><pre id="diff"><ins>[1:1]|[بسم] [الله] [الرحمن] [الرحيم]
+[1:2]|[الحمد] [لله] [رب] [العالمين]
+[1:3]|[الرحمن] [الرحيم]
+[1:4]|[مالك] [يوم] [الدين]
+[1:5]|[إياك] [نعبد] [وإياك] [نستعين]
+[1:6]|[اهدنا] [الصراط] [المستقيم]
+[1:7]|[صراط] [الذين] [أنعمت] [عليهم] [غير] [المغضوب] [عليهم] [ولا] [الضالين]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 15:54:48 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+<ins>
+----
+[001-b] Al-Faatihah (tanpa harokat)
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الْكَافِرُونَ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:49:41 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%92%D9%83%D9%8E%D8%A7%D9%81%D9%90%D8%B1%D9%8F%D9%88%D9%86%D9%8E</link>
+	  <description><pre id="diff"><ins>الْكَافِرُونَ = orang-orang yang kafir</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>أَيُّهَا</title>
+	  <pubDate>Thu, 06 Sep 2012 15:49:17 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%8E%D9%8A%D9%8F%D9%91%D9%87%D9%8E%D8%A7</link>
+	  <description><pre id="diff"><ins>أَيُّهَا = wahai</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>يَا</title>
+	  <pubDate>Thu, 06 Sep 2012 15:48:59 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D9%8E%D8%A7</link>
+	  <description><pre id="diff"><ins>يَا = wahai</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>109</title>
+	  <pubDate>Thu, 06 Sep 2012 15:47:01 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=109</link>
+	  <description><pre id="diff"><ins>[109:1] [بِسْمِ] [اللَّهِ] [الرَّحْمَٰنِ] [الرَّحِيمِ] [قُلْ] [يَا] [أَيُّهَا] [الْكَافِرُونَ]
+[109:2] [لَا] [أَعْبُدُ] [مَا] [تَعْبُدُونَ]
+[109:3] [وَلَا] [أَنْتُمْ] [عَابِدُونَ] [مَا] [أَعْبُدُ]
+[109:4] [وَلَا] [أَنَا] [عَابِدٌ] [مَا] [عَبَدْتُمْ]
+[109:5] [وَلَا] [أَنْتُمْ] [عَابِدُونَ] [مَا] [أَعْبُدُ]
+[109:6] [لَكُمْ] [دِينُكُمْ] [وَلِيَ] [دِينِ]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 15:46:53 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+<ins>[109] Al-Kaafiruun</ins>
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+</pre></description>
+	</item>
+
+	<item>
+	  <title>تَوَّابًا</title>
+	  <pubDate>Thu, 06 Sep 2012 15:36:08 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AA%D9%8E%D9%88%D9%8E%D9%91%D8%A7%D8%A8%D9%8B%D8%A7</link>
+	  <description><pre id="diff"><ins>تَوَّابًا = Maha Penerima Taubat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>إِنَّهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:35:52 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A5%D9%90%D9%86%D9%8E%D9%91%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>إِنَّهُ = sesungguhnya Dia</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>وَاسْتَغْفِرْهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:35:40 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D9%8E%D8%A7%D8%B3%D9%92%D8%AA%D9%8E%D8%BA%D9%92%D9%81%D9%90%D8%B1%D9%92%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>وَاسْتَغْفِرْهُ = dan memohonlah ampunan (kepada)-Nya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>رَبِّكَ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:35:09 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%B1%D9%8E%D8%A8%D9%90%D9%91%D9%83%D9%8E</link>
+	  <description><pre id="diff"><ins>رَبِّكَ = Rabbmu</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>فَسَبِّحْ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:34:13 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%81%D9%8E%D8%B3%D9%8E%D8%A8%D9%90%D9%91%D8%AD%D9%92</link>
+	  <description><pre id="diff"><ins>فَسَبِّحْ = maka bertasbihlah</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>النَّاسَ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:33:49 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%86%D9%8E%D9%91%D8%A7%D8%B3%D9%8E</link>
+	  <description><pre id="diff"><ins>النَّاسَ = manusia</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>وَالْفَتْحُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:33:11 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D9%8E%D8%A7%D9%84%D9%92%D9%81%D9%8E%D8%AA%D9%92%D8%AD%D9%8F</link>
+	  <description><pre id="diff"><ins>وَالْفَتْحُ = dan kemenangan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>جَاءَ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:33:00 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AC%D9%8E%D8%A7%D8%A1%D9%8E</link>
+	  <description><pre id="diff"><ins>جَاءَ = telah datang</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>110</title>
+	  <pubDate>Thu, 06 Sep 2012 15:31:30 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=110</link>
+	  <description><pre id="diff"><ins>[110:1] [بِسْمِ] [اللَّهِ] [الرَّحْمَٰنِ] [الرَّحِيمِ] [إِذَا] [جَاءَ] [نَصْرُ] [اللَّهِ] [وَالْفَتْحُ]
+[110:2] [وَرَأَيْتَ] [النَّاسَ] [يَدْخُلُونَ] [فِي] [دِينِ] [اللَّهِ] [أَفْوَاجًا]
+[110:3] [فَسَبِّحْ] [بِحَمْدِ] [رَبِّكَ] [وَاسْتَغْفِرْهُ] [ۚ] [إِنَّهُ] [كَانَ] [تَوَّابًا]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 15:31:14 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+<ins>[110] An-Nashr</ins>
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+</pre></description>
+	</item>
+
+	<item>
+	  <title>مَسَدٍ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:30:36 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%85%D9%8E%D8%B3%D9%8E%D8%AF%D9%8D</link>
+	  <description><pre id="diff"><ins>مَسَدٍ = pintalan sabut</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الْحَطَبِ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:27:31 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%92%D8%AD%D9%8E%D8%B7%D9%8E%D8%A8%D9%90</link>
+	  <description><pre id="diff"><ins>الْحَطَبِ = kayu bakar</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>حَمَّالَةَ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:27:18 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AD%D9%8E%D9%85%D9%8E%D9%91%D8%A7%D9%84%D9%8E%D8%A9%D9%8E</link>
+	  <description><pre id="diff"><ins>حَمَّالَةَ = pembawa</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>وَامْرَأَتُهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:26:22 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D9%8E%D8%A7%D9%85%D9%92%D8%B1%D9%8E%D8%A3%D9%8E%D8%AA%D9%8F%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>وَامْرَأَتُهُ = dan istrinya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>مَالُهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:25:05 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%85%D9%8E%D8%A7%D9%84%D9%8F%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>مَالُهُ = hartanya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>وَتَبَّ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:24:27 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D9%8E%D8%AA%D9%8E%D8%A8%D9%8E%D9%91</link>
+	  <description><pre id="diff"><ins>وَتَبَّ = dan (ia) benar-benar binasa</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>أَبِي</title>
+	  <pubDate>Thu, 06 Sep 2012 15:24:01 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%8E%D8%A8%D9%90%D9%8A</link>
+	  <description><pre id="diff"><ins>أَبِي = Abi</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>يَدَا</title>
+	  <pubDate>Thu, 06 Sep 2012 15:23:49 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D9%8E%D8%AF%D9%8E%D8%A7</link>
+	  <description><pre id="diff"><ins>يَدَا = kedua tangan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>تَبَّتْ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:23:36 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AA%D9%8E%D8%A8%D9%8E%D9%91%D8%AA%D9%92</link>
+	  <description><pre id="diff"><ins>تَبَّتْ = binasalah</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>111</title>
+	  <pubDate>Thu, 06 Sep 2012 15:23:06 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=111</link>
+	  <description><pre id="diff"><ins>[111:1] [بِسْمِ] [اللَّهِ] [الرَّحْمَٰنِ] [الرَّحِيمِ] [تَبَّتْ] [يَدَا] [أَبِي] [لَهَبٍ] [وَتَبَّ]
+[111:2] [مَا] [أَغْنَىٰ] [عَنْهُ] [مَالُهُ] [وَمَا] [كَسَبَ]
+[111:3] [سَيَصْلَىٰ] [نَارًا] [ذَاتَ] [لَهَبٍ]
+[111:4] [وَامْرَأَتُهُ] [حَمَّالَةَ] [الْحَطَبِ]
+[111:5] [فِي] [جِيدِهَا] [حَبْلٌ] [مِنْ] [مَسَدٍ]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Thu, 06 Sep 2012 15:02:55 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+<ins>[111] Al-Lahab</ins>
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+</pre></description>
+	</item>
+
+	<item>
+	  <title>أَحَدٌ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:01:48 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%8E%D8%AD%D9%8E%D8%AF%D9%8C</link>
+	  <description><pre id="diff"><ins>أَحَدٌ = Esa / satupun</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>لَهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:01:26 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%84%D9%8E%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>لَهُ = bagi-Nya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>يَكُنْ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:01:16 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D9%8E%D9%83%D9%8F%D9%86%D9%92</link>
+	  <description><pre id="diff"><ins>يَكُنْ = ada</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>112</title>
+	  <pubDate>Thu, 06 Sep 2012 15:01:03 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=112</link>
+	  <description><pre id="diff">[112:1] [بِسْمِ] [اللَّهِ] [الرَّحْمَٰنِ] [الرَّحِيمِ] [قُلْ] [هُوَ] [اللَّهُ] [أَحَدٌ]
+[112:2] [اللَّهُ] [الصَّمَدُ]
+[112:3] [لَمْ] [يَلِدْ] [وَلَمْ] [يُولَدْ]
+<ins>[112:4] [وَلَمْ] [يَكُنْ] [لَهُ] [كُفُوًا] [أَحَدٌ]</ins>
+
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الصَّمَدُ</title>
+	  <pubDate>Thu, 06 Sep 2012 15:00:25 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D9%8E%D9%91%D9%85%D9%8E%D8%AF%D9%8F</link>
+	  <description><pre id="diff"><ins>الصَّمَدُ = tempat bergantung (segala sesuatu)</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>اللَّهُ</title>
+	  <pubDate>Thu, 06 Sep 2012 14:59:51 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%84%D9%8E%D9%91%D9%87%D9%8F</link>
+	  <description><pre id="diff"><ins>اللَّهُ = Allah</ins>
+</pre></description>
+	</item>
+</channel>
+</rss>
