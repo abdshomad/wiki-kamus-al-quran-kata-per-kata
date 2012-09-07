@@ -1,6 +1,11 @@
 [001-b] Al-Faatihah (tanpa harokat)
 
-[102-b] At-Takaatsur
+[097-b] Al-Qadr (tanpa harokat)
+[098-b] Al-Bayyinah (tanpa harokat)
+[099-b] Az-Zalzalah (tanpa harokat)
+[100-b] Al-'Aadiyaat (tanpa harokat)
+[101-b] Al-Qaari'ah (tanpa harokat)
+[102-b] At-Takaatsur (tanpa harokat)
 [103-b] Al-'Ashr (tanpa harokat)
 [104-b] Al-Humazah (tanpa harokat)
 [105-b] Al-Fiil (tanpa harokat)
