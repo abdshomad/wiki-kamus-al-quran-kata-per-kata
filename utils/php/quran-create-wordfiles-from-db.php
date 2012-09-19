@@ -49,8 +49,8 @@ if (mysql_num_rows($result) == 0) {
 //       then create $userid, $fullname, and $userstatus
 while ($row = mysql_fetch_assoc($result)) {
     $content = $row["arab_harokat"] . ' = ' . $row['indonesia'];
-	// $dirname1 = realpath(dirname(__FILE__)) . '\\test\\' . str_pad($row['sura'], 3, "0", STR_PAD_LEFT) . '\\';
-	$dirname1 = realpath(dirname(__FILE__)) . '\\test\\' . 'all' . '\\';
+	// $dirname1 = realpath(dirname(__FILE__)) . '\\gen-words\\' . str_pad($row['sura'], 3, "0", STR_PAD_LEFT) . '\\';
+	$dirname1 = realpath(dirname(__FILE__)) . '\\gen-words\\' . 'all' . '\\';
 	// @mkdir($dirname1, 0777);
 	$filename = $dirname1 . $row["arab_harokat"] . '.txt';
 	echo "Writing $filename<br>"; 
@@ -69,7 +69,7 @@ echo 'Done!';
 
 <script lang='javascript'>
 function next() {
-	document.location.href ='test.php?surat=<?php echo $surat+1 ?>'; 
+	document.location.href ='<?php echo $_SERVER["SCRIPT_NAME"]; ?>?surat=<?php echo $surat+1 ?>'; 
 }
 </script>
 
