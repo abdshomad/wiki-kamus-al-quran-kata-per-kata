@@ -314,7 +314,7 @@ if(!$action || $preview) { // page parsing
 	}
 
 	// subpages
-	while(preg_match('/(?<!\^){include:([^}]+)}/Um', $CON, $m)) {
+	while(preg_match('/(?<!\^){i:([^}]+)}/Um', $CON, $m)) { // abd.shomad change {include:page} to {i:page}
 		$includePage = clear_path($m[1]);
 
 		if(!strcmp($includePage, $page)) // limited recursion protection
@@ -396,7 +396,7 @@ if(!$action || $preview) { // page parsing
 
 	$CON = preg_replace('#([0-9a-zA-Z\./~\-_]+@[0-9a-z/~\-_]+\.[0-9a-z\./~\-_]+)#i', '<a href="mailto:$0">$0</a>', $CON); // mail recognition
 
-	$CON = preg_replace('#([0-9]{1,3}[:\.][0-9]{1,3})#i', '<a href="?page=$0">$0</a>', $CON); // surah, ayah recognition
+	$CON = preg_replace('#([0-9]{1,3}[:\.][0-9]{1,3})#i', '<a href="?page=$0">$0</a>', $CON); // abd.shomad recognize surah:ayah pattern (eg: 1:1, 1.1)
 
 	// links
 	$CON = preg_replace("#\[([^\]\|]+)\|(\./([^\]]+)|(https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*))\]#U", '<a href="$2" class="external">$1</a>', $CON);
@@ -466,7 +466,7 @@ $html = file_exists($TEMPLATE) ? file_get_contents(clear_path($TEMPLATE)) : fall
 
 // including pages in pure HTML
 if (!$NO_HTML)
-	while(preg_match('/{include:([^}]+)}/U', $html, $m)) {
+	while(preg_match('/{i:([^}]+)}/U', $html, $m)) { // abd.shomad change {include:page} to {i:page}
 		$inc = str_replace(array('{html}', '{/html}'), '', @file_get_contents("$PG_DIR$m[1].txt"));
 		$html = str_replace($m[0], $inc, $html);
 	}
