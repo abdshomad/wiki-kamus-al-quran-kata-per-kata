@@ -49,9 +49,9 @@ if (mysql_num_rows($result) == 0) {
 //       then create $userid, $fullname, and $userstatus
 while ($row = mysql_fetch_assoc($result)) {
     $content = $row["arab_harokat"] . ' = ' . $row['indonesia'];
-	// $dirname1 = realpath(dirname(__FILE__)) . '\\gen-words\\' . str_pad($row['sura'], 3, "0", STR_PAD_LEFT) . '\\';
-	$dirname1 = realpath(dirname(__FILE__)) . '\\gen-words\\' . 'all' . '\\';
-	// @mkdir($dirname1, 0777);
+	// $dirname1 = realpath(dirname(__FILE__)) . '\\quran-create-wordfiles-from-db-RESULT\\' . str_pad($row['sura'], 3, "0", STR_PAD_LEFT) . '\\';
+	$dirname1 = realpath(dirname(__FILE__)) . '\\quran-create-wordfiles-from-db-RESULT\\' . '' . '\\';
+	@mkdir($dirname1, 0777);
 	$filename = $dirname1 . $row["arab_harokat"] . '.txt';
 	echo "Writing $filename<br>"; 
     if(!$file = @fopen($filename, 'w'))

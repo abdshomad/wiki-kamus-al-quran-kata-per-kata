@@ -5,12 +5,13 @@ set_time_limit(999999);
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
-<pre>
+<pret>
 <?php
 $handle = @fopen("./source-files/quran-simple-clean.txt", "r");
 $sura_number = '1'; $sura_number_old = '1'; 
 $line_number = 1; 
 $stop_line = 6238; 
+echo "Processing: "; 
 if ($handle) {
 	$sura_content = ''; 
     while (!feof($handle) && ($line_number < $stop_line)) {
@@ -34,7 +35,7 @@ if ($handle) {
 		if($sura_number == $sura_number_old) { 
 			$sura_content = $sura_content . $ayah_content_wikified . "\n"; 
 		} else {
-			echo 'writing file ' . $sura_number_old_padded . "\n"; 
+			echo $sura_number_old_padded . ", "; 
 			$dir = './quran-simple-clean-wikified-RESULT/'; 
 			@mkdir($dir); 
 			file_put_contents($dir . $sura_number_old_padded . '.txt', $sura_content); 
@@ -45,7 +46,9 @@ if ($handle) {
     } 
     
     fclose($handle);
+	
+	echo "Done!"; 
 }
 ?> 
-</pre>
+</pret>
 </body>
