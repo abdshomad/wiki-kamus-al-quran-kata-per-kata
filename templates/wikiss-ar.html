@@ -48,11 +48,26 @@ table.wikitable td.em{background:#ccc;font-weight:bold;}
 	{HEAD}
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=160374034086205";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=160374034086205";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <table border="0" width="100%" cellpadding="4" cellspacing="0" style="border:1px solid #11141A;">
 	<tr>
 		<th colspan="3">
 			<h1 id="page-title">{PAGE_TITLE} {<span class="pageVersionsList">( plugin:VERSIONS_LIST )</span>}</h1>
-			<p>{LAST_CHANGED_TEXT :} {LAST_CHANGED}&nbsp;</p>
+                        <p>{LAST_CHANGED_TEXT :} {LAST_CHANGED}&nbsp;</p><p>Dapatkan source codenya di: <a href="https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata" target="_blank">https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata</a></p>
 		</th>
 	</tr>
 	<tr id="headerLinks">
@@ -85,5 +100,7 @@ table.wikitable td.em{background:#ccc;font-weight:bold;}
 		<td class="pageLinks" align="right">{EDIT} {/  SYNTAX} {/  HISTORY}</td>
 	</tr>
 </table>
+<div class="fb-comments" data-href="{PAGE_ABSOLUTE_URL}" data-num-posts="2" data-width="470"></div>
+<div class="fb-login-button" data-show-faces="true" data-width="200" data-max-rows="2"></div>
 </body>
 </html>

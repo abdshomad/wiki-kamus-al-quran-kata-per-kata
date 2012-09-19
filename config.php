@@ -1,5 +1,5 @@
 <?php /* Configuration file for LionWiki. */
-$WIKI_TITLE = 'Indeks Kamus Al-Quran Kata per Kata'; // name of the site
+$WIKI_TITLE = 'Kolaborasi Kamus Al-Quran Kata per Kata'; // name of the site
 
 // SHA1 hash of password. If empty (or commented out), no password is required
 // $PASSWORD = sha1("my_password");

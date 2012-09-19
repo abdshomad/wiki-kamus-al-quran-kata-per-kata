@@ -113,6 +113,11 @@ $error = h($error);
 
 plugin('actionBegin');
 
+// abd.shomad
+$page_text = $page; 
+$page = str_replace(':', '.', $page); 
+$moveto = str_replace(':', '.', $moveto); 
+
 if(!$action)
 	if(!$page)
 		die(header("Location:$self?page=" . u($START_PAGE)));
@@ -122,13 +127,13 @@ if(!$action)
 		$action = 'edit'; // create page if it doesn't exist
 
 if($PROTECTED_READ && !authentified()) { // does user need password to read content of site. If yes, ask for it.
-	$CON = "<form action=\"$self?page=".u($page)."\" method=\"post\"><p>$T_PROTECTED_READ <input type=\"password\" name=\"sc\"/> <input class=\"submit\" type=\"submit\"/></p></form>";
+	$CON = "<form action=\"$self?page=".u($page_text)."\" method=\"post\"><p>$T_PROTECTED_READ <input type=\"password\" name=\"sc\"/> <input class=\"submit\" type=\"submit\"/></p></form>";
 	$action = 'view-html';
 } else if($restore || $action == 'rev') { // Show old revision
 	$CON = @file_get_contents("$HIST_DIR$page/$f1");
 
 	if($action == 'rev') {
-		$rev_restore = "[$T_RESTORE|./$self?page=".u($page)."&amp;action=edit&amp;f1=$f1&amp;restore=1]";
+		$rev_restore = "[$T_RESTORE|./$self?page=".u($page_text)."&amp;action=edit&amp;f1=$f1&amp;restore=1]";
 		$CON = strtr($T_REVISION, array('{TIME}' => rev_time($f1), '{RESTORE}' => $rev_restore)) . $CON;
 		$action = '';
 	}
@@ -143,12 +148,13 @@ if($PROTECTED_READ && !authentified()) { // does user need password to read cont
 if ($page)
 	$last_changed_ts = @filemtime("$PG_DIR$page.txt");
 
+
 if($action == 'save' && !$preview && authentified()) { // do we have page to save?
 	if(!trim($content) && !$par) // delete empty page
 		@unlink("$PG_DIR$page.txt");
 	elseif($last_changed < @filemtime("$PG_DIR$page.txt")) {
 		$action = 'edit';
-		$error = str_replace('{DIFF}', "<a href=\"$self?page=".u($page)."&amp;action=diff\">$T_DIFF</a>", $T_EDIT_CONFLICT);
+		$error = str_replace('{DIFF}', "<a href=\"$self?page=".u($page_text)."&amp;action=diff\">$T_DIFF</a>", $T_EDIT_CONFLICT);
 	} elseif(!plugin('writingPage')) { // are plugins OK with page? (e.g. checking for spam)
 		if($par) {
 			$c = @file_get_contents("$PG_DIR$page.txt");
@@ -192,10 +198,11 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 			} else
 				$page = $moveto;
 
-		if(!plugin('pageWritten'))
-			die(header("Location:$self?page=" . u($page) . '&redirect=no' . ($par ? "&par=$par" : '') . ($_REQUEST['ajax'] ? '&ajax=1' : '')));
-		else
-			$action = ''; // display content ...
+		// abd.shomad this code causing performance problem 
+		//if(!plugin('pageWritten'))
+		//	die(header("Location:$self?page=" . u($page_text) . '&redirect=no' . ($par ? "&par=$par" : '') . ($_REQUEST['ajax'] ? '&ajax=1' : '')));
+		//else
+		//	$action = ''; // display content ...
 	} else // there's some problem with page, give user a chance to fix it
 		$action = 'edit';
 } elseif($action == 'save' && !$preview) { // wrong password, give user another chance
@@ -204,9 +211,9 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 }
 
 if($action == 'edit' || $preview) {
-	$CON_FORM_BEGIN = "<form action=\"$self\" method=\"post\"><input type=\"hidden\" name=\"action\" value=\"save\"/><input type=\"hidden\" name=\"last_changed\" value=\"$last_changed_ts\"/><input type=\"hidden\" name=\"showsource\" value=\"$showsource\"/><input type=\"hidden\" name=\"par\" value=\"".h($par)."\"/><input type=\"hidden\" name=\"page\" value=\"".h($page)."\"/>";
+	$CON_FORM_BEGIN = "<form action=\"$self\" method=\"post\"><input type=\"hidden\" name=\"action\" value=\"save\"/><input type=\"hidden\" name=\"last_changed\" value=\"$last_changed_ts\"/><input type=\"hidden\" name=\"showsource\" value=\"$showsource\"/><input type=\"hidden\" name=\"par\" value=\"".h($par)."\"/><input type=\"hidden\" name=\"page\" value=\"".h($page_text)."\"/>"; // abd.shomad : TODO : error 
 	$CON_FORM_END = '</form>';
-	if($CON=='')$CON = $page . ' = '; 
+	if($CON=='')$CON = $page_text . ' = '; // abd.shomad
 	$CON_TEXTAREA = '<textarea class="contentTextarea" name="content" style="width:100%" cols="100" rows="20">'.h(str_replace("&lt;", "<", $CON)).'</textarea>';
 	$CON_PREVIEW = '<input class="submit" type="submit" name="preview" value="'.$T_PREVIEW.'"/>';
 
@@ -222,7 +229,7 @@ if($action == 'edit' || $preview) {
 
 		if(!$par) {
 			$RENAME_TEXT = $T_MOVE_TEXT;
-			$RENAME_INPUT = '<input type="text" name="moveto" value="'.h($page).'"/>';
+			$RENAME_INPUT = '<input type="text" name="moveto" value="'.h($page_text).'"/>'; // abd.shomad
 		}
 	}
 
@@ -242,7 +249,7 @@ if($action == 'edit' || $preview) {
 			$mi++;
 
 		$CON .= '<input type="radio" name="f1" value="'.h($files[$i]).'"/><input type="radio" name="f2" value="'.h($files[$i]).'"/>';
-		$CON .= "<a href=\"$self?page=".u($page)."&amp;action=rev&amp;f1=".$files[$i]."\">".rev_time($files[$i])."</a> - ($m[2] B) $m[1] <i>".h($m[3])."</i><br/>";
+		$CON .= "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=".$files[$i]."\">".rev_time($files[$i])."</a> - ($m[2] B) $m[1] <i>".h($m[3])."</i><br/>";
 	}
 
 	$CON .= '</form>';
@@ -254,11 +261,11 @@ if($action == 'edit' || $preview) {
 
 		rsort($files);
 
-		die(header("Location:$self?action=diff&page=".u($page)."&f1=".u($files[0])."&f2=".u($files[1])));
+		die(header("Location:$self?action=diff&page=".u($page_text)."&f1=".u($files[0])."&f2=".u($files[1])));
 	}
 
-	$r1 = "<a href=\"$self?page=".u($page)."&amp;action=rev&amp;f1=$f1\">".rev_time($f1)."</a>";
-	$r2 = "<a href=\"$self?page=".u($page)."&amp;action=rev&amp;f1=$f2\">".rev_time($f2)."</a>";
+	$r1 = "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=$f1\">".rev_time($f1)."</a>";
+	$r2 = "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=$f2\">".rev_time($f2)."</a>";
 
 	$CON = str_replace(array("{REVISION1}", "{REVISION2}"), array($r1, $r2), $T_REV_DIFF);
 	$CON .= diff($f1, $f2);
@@ -399,8 +406,9 @@ if(!$action || $preview) { // page parsing
 		$m[1] = $m[1] ? $m[1] : $m[2]; // is page label same as its name?
 		$m[3] = $m[3] ? '#'.u(preg_replace('/[^\da-z]/i', '_', $m[3])) : ''; // anchor
 
-		$attr = file_exists("$PG_DIR$m[2].txt") ? $m[3] : '&amp;action=edit" class="pending';
-		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON);
+		$m2_sanitized = str_replace(':', '.', $m[2]);
+		$attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
+		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
 	}
 
 	for($i = 10; $i >= 1; $i--) { // Lists, ordered, unordered
@@ -424,10 +432,10 @@ if(!$action || $preview) { // page parsing
 		$ret .= "<div class=\"par-div\" id=\"par-$h_id\"><h$excl id=\"$hash\">$m[2]";
 
 		if(is_writable($PG_DIR . $page . '.txt'))
-			$ret .= "<span class=\"par-edit\">(<a href=\"$self?action=edit&amp;page=".u($page)."&amp;par=$h_id\">$T_EDIT</a>)</span>";
+			$ret .= "<span class=\"par-edit\">(<a href=\"$self?action=edit&amp;page=".u($page_text)."&amp;par=$h_id\">$T_EDIT</a>)</span>";
 
 		$CON = preg_replace('/' . preg_quote($m[0], '/') . '/', "$ret</h$excl>", $CON, 1);
-		$TOC .= str_repeat("<ul>", $excl - 2).'<li><a href="'.$self.'?page='.u($page).'#'.u($hash).'">'.$m[2].'</a></li>'.str_repeat("</ul>", $excl - 2);
+		$TOC .= str_repeat("<ul>", $excl - 2).'<li><a href="'.$self.'?page='.u($page_text).'#'.u($hash).'">'.$m[2].'</a></li>'.str_repeat("</ul>", $excl - 2);
 	}
 
 	$CON .= str_repeat('</div>', count($stack));
@@ -474,19 +482,20 @@ $tpl_subs = array(
 	'HOME' => "<a href=\"$self?page=".u($START_PAGE)."\">$T_HOME</a>",
 	'RECENT_CHANGES' => "<a href=\"$self?action=recent\">$T_RECENT_CHANGES</a>",
 	'ERROR' => $error,
-	'HISTORY' => $page ? "<a href=\"$self?page=".u($page)."&amp;action=history\">$T_HISTORY</a>" : "",
+	'HISTORY' => $page ? "<a href=\"$self?page=".u($page_text)."&amp;action=history\">$T_HISTORY</a>" : "",
 	'PAGE_TITLE' => h($page == $START_PAGE && $page == $TITLE ? $WIKI_TITLE : $TITLE),
 	'PAGE_TITLE_HEAD' => h($TITLE),
 	'PAGE_URL' => u($page),
-	'EDIT' => !$action ? ("<a href=\"$self?page=".u($page)."&amp;action=edit".(is_writable("$PG_DIR$page.txt") ? "\">$T_EDIT</a>" : "&amp;showsource=1\">$T_SHOW_SOURCE</a>")) : "",
+	'PAGE_ABSOLUTE_URL' => 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . "?page=".u($page_text),
+	'EDIT' => !$action ? ("<a href=\"$self?page=".u($page_text)."&amp;action=edit".(is_writable("$PG_DIR$page.txt") ? "\">$T_EDIT</a>" : "&amp;showsource=1\">$T_SHOW_SOURCE</a>")) : "",
 	'WIKI_TITLE' => h($WIKI_TITLE),
 	'LAST_CHANGED_TEXT' => $last_changed_ts ? $T_LAST_CHANGED : "",
 	'LAST_CHANGED' => $last_changed_ts ? date($DATE_FORMAT, $last_changed_ts + $LOCAL_HOUR * 3600) : "",
 	'CONTENT' => $action != "edit" ? $CON : "",
 	'TOC' => $TOC,
 	'SYNTAX' => $action == "edit" || $preview ? "<a href=\"$SYNTAX_PAGE\">$T_SYNTAX</a>" : "",
-	'SHOW_PAGE' => $action == "edit" || $preview ? "<a href=\"$self?page=".u($page)."\">$T_SHOW_PAGE</a>" : "",
-	'COOKIE' => '<a href="'.$self.'?page='.u($page).'&amp;action='.u($action).'&amp;erasecookie=1">'.$T_ERASE_COOKIE.'</a>',
+	'SHOW_PAGE' => $action == "edit" || $preview ? "<a href=\"$self?page=".u($page_text)."\">$T_SHOW_PAGE</a>" : "",
+	'COOKIE' => '<a href="'.$self.'?page='.u($page_text).'&amp;action='.u($action).'&amp;erasecookie=1">'.$T_ERASE_COOKIE.'</a>',
 	'CONTENT_FORM' => $CON_FORM_BEGIN,
 	'\/CONTENT_FORM' => $CON_FORM_END,
 	'CONTENT_TEXTAREA' => $CON_TEXTAREA,

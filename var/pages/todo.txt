@@ -1,0 +1,16 @@
+* buat menu
+* tampilkan github url di setiap halaman, atau di menu: https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata
+* admin facebook comment admin fbid: 1046375195. See: http://www.myfbid.com/
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* tambahkan terjemah dari bblm.go.id
+* gunakan include untuk menampilkan surat
+* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+** like
+** send 
+** facepile
+* beli domain permanen untuk hosting kamus-al-quran ? 
