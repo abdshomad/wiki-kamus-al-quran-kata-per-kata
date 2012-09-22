@@ -127,12 +127,14 @@ if(!$action)
 		$action = 'edit'; // create page if it doesn't exist
 
 if($PROTECTED_READ && !authentified()) { // does user need password to read content of site. If yes, ask for it.
-	$CON = "<form action=\"$self?page=".u($page_text)."\" method=\"post\"><p>$T_PROTECTED_READ <input type=\"password\" name=\"sc\"/> <input class=\"submit\" type=\"submit\"/></p></form>";
+	// abd.shomad change $page to $page_text
+	$CON = "<form action=\"$self?page=".u($page_text)."\" method=\"post\"><p>$T_PROTECTED_READ <input type=\"password\" name=\"sc\"/> <input class=\"submit\" type=\"submit\"/></p></form>"; // abd.shomad 
 	$action = 'view-html';
 } else if($restore || $action == 'rev') { // Show old revision
 	$CON = @file_get_contents("$HIST_DIR$page/$f1");
 
 	if($action == 'rev') {
+	    // abd.shomad change $page to $page_text
 		$rev_restore = "[$T_RESTORE|./$self?page=".u($page_text)."&amp;action=edit&amp;f1=$f1&amp;restore=1]";
 		$CON = strtr($T_REVISION, array('{TIME}' => rev_time($f1), '{RESTORE}' => $rev_restore)) . $CON;
 		$action = '';
@@ -154,6 +156,7 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 		@unlink("$PG_DIR$page.txt");
 	elseif($last_changed < @filemtime("$PG_DIR$page.txt")) {
 		$action = 'edit';
+        // abd.shomad change $page to $page_text
 		$error = str_replace('{DIFF}', "<a href=\"$self?page=".u($page_text)."&amp;action=diff\">$T_DIFF</a>", $T_EDIT_CONFLICT);
 	} elseif(!plugin('writingPage')) { // are plugins OK with page? (e.g. checking for spam)
 		if($par) {
@@ -229,6 +232,7 @@ if($action == 'edit' || $preview) {
 
 		if(!$par) {
 			$RENAME_TEXT = $T_MOVE_TEXT;
+			// abd.shomad change $page to $page_text
 			$RENAME_INPUT = '<input type="text" name="moveto" value="'.h($page_text).'"/>'; // abd.shomad
 		}
 	}
@@ -249,6 +253,7 @@ if($action == 'edit' || $preview) {
 			$mi++;
 
 		$CON .= '<input type="radio" name="f1" value="'.h($files[$i]).'"/><input type="radio" name="f2" value="'.h($files[$i]).'"/>';
+		// abd.shomad change $page to $page_text
 		$CON .= "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=".$files[$i]."\">".rev_time($files[$i])."</a> - ($m[2] B) $m[1] <i>".h($m[3])."</i><br/>";
 	}
 
@@ -261,9 +266,11 @@ if($action == 'edit' || $preview) {
 
 		rsort($files);
 
+		// abd.shomad change $page to $page_text
 		die(header("Location:$self?action=diff&page=".u($page_text)."&f1=".u($files[0])."&f2=".u($files[1])));
 	}
 
+	// abd.shomad change $page to $page_text 
 	$r1 = "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=$f1\">".rev_time($f1)."</a>";
 	$r2 = "<a href=\"$self?page=".u($page_text)."&amp;action=rev&amp;f1=$f2\">".rev_time($f2)."</a>";
 
@@ -396,7 +403,8 @@ if(!$action || $preview) { // page parsing
 
 	$CON = preg_replace('#([0-9a-zA-Z\./~\-_]+@[0-9a-z/~\-_]+\.[0-9a-z\./~\-_]+)#i', '<a href="mailto:$0">$0</a>', $CON); // mail recognition
 
-	$CON = preg_replace('#([0-9]{1,3}[:;\.][0-9]{1,3})#i', '<a href="?page=$0">$0</a>', $CON); // abd.shomad recognize surah:ayah pattern (eg: 1:1, 1.1)
+	$CON = preg_replace('#([0-9]{1,3}[:;\.][0-9]{1,3})#i', '<a href="?page=$0">$0</a>', $CON); 
+	// abd.shomad recognize surah:ayah pattern (eg: 1:1, 1.1)
 
 	// links
 	$CON = preg_replace("#\[([^\]\|]+)\|(\./([^\]]+)|(https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*))\]#U", '<a href="$2" class="external">$1</a>', $CON);
@@ -408,7 +416,7 @@ if(!$action || $preview) { // page parsing
 		$m[1] = $m[1] ? $m[1] : $m[2]; // is page label same as its name?
 		$m[3] = $m[3] ? '#'.u(preg_replace('/[^\da-z]/i', '_', $m[3])) : ''; // anchor
 
-		$m2_sanitized = str_replace(':', '.', $m[2]);
+		$m2_sanitized = str_replace(':', '.', $m[2]); // abd.shomad sanitize, change : to . for file saving? 
 		$attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
 		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
 	}
@@ -434,9 +442,11 @@ if(!$action || $preview) { // page parsing
 		$ret .= "<div class=\"par-div\" id=\"par-$h_id\"><h$excl id=\"$hash\">$m[2]";
 
 		if(is_writable($PG_DIR . $page . '.txt'))
+			// abd.shomad change $page to $page_text
 			$ret .= "<span class=\"par-edit\">(<a href=\"$self?action=edit&amp;page=".u($page_text)."&amp;par=$h_id\">$T_EDIT</a>)</span>";
 
 		$CON = preg_replace('/' . preg_quote($m[0], '/') . '/', "$ret</h$excl>", $CON, 1);
+		// abd.shomad change $page to $page_text
 		$TOC .= str_repeat("<ul>", $excl - 2).'<li><a href="'.$self.'?page='.u($page_text).'#'.u($hash).'">'.$m[2].'</a></li>'.str_repeat("</ul>", $excl - 2);
 	}
 
@@ -484,11 +494,14 @@ $tpl_subs = array(
 	'HOME' => "<a href=\"$self?page=".u($START_PAGE)."\">$T_HOME</a>",
 	'RECENT_CHANGES' => "<a href=\"$self?action=recent\">$T_RECENT_CHANGES</a>",
 	'ERROR' => $error,
+	// abd.shomad change $page to $page_text
 	'HISTORY' => $page ? "<a href=\"$self?page=".u($page_text)."&amp;action=history\">$T_HISTORY</a>" : "",
 	'PAGE_TITLE' => h($page == $START_PAGE && $page == $TITLE ? $WIKI_TITLE : $TITLE),
 	'PAGE_TITLE_HEAD' => h($TITLE),
 	'PAGE_URL' => u($page),
+	// abd.shomad add PAGE_ABSOLUTE_URL for facebook :) 
 	'PAGE_ABSOLUTE_URL' => 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . "?page=".u($page_text),
+	// abd.shomad change $page to $page_text
 	'EDIT' => !$action ? ("<a href=\"$self?page=".u($page_text)."&amp;action=edit".(is_writable("$PG_DIR$page.txt") ? "\">$T_EDIT</a>" : "&amp;showsource=1\">$T_SHOW_SOURCE</a>")) : "",
 	'WIKI_TITLE' => h($WIKI_TITLE),
 	'LAST_CHANGED_TEXT' => $last_changed_ts ? $T_LAST_CHANGED : "",
@@ -496,6 +509,7 @@ $tpl_subs = array(
 	'CONTENT' => $action != "edit" ? $CON : "",
 	'TOC' => $TOC,
 	'SYNTAX' => $action == "edit" || $preview ? "<a href=\"$SYNTAX_PAGE\">$T_SYNTAX</a>" : "",
+	// abd.shomad change $page to $page_text
 	'SHOW_PAGE' => $action == "edit" || $preview ? "<a href=\"$self?page=".u($page_text)."\">$T_SHOW_PAGE</a>" : "",
 	'COOKIE' => '<a href="'.$self.'?page='.u($page_text).'&amp;action='.u($action).'&amp;erasecookie=1">'.$T_ERASE_COOKIE.'</a>',
 	'CONTENT_FORM' => $CON_FORM_BEGIN,
