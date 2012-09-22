@@ -200,7 +200,7 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 
 		// abd.shomad this code causing performance problem 
 		//if(!plugin('pageWritten'))
-		//	die(header("Location:$self?page=" . u($page_text) . '&redirect=no' . ($par ? "&par=$par" : '') . ($_REQUEST['ajax'] ? '&ajax=1' : '')));
+		die(header("Location:$self?page=" . u($page_text) . '&redirect=no' . ($par ? "&par=$par" : '') . ($_REQUEST['ajax'] ? '&ajax=1' : '')));
 		//else
 		$action = ''; // display content ...
 	} else // there's some problem with page, give user a chance to fix it
