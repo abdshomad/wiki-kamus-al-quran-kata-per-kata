@@ -202,7 +202,7 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 		//if(!plugin('pageWritten'))
 		//	die(header("Location:$self?page=" . u($page_text) . '&redirect=no' . ($par ? "&par=$par" : '') . ($_REQUEST['ajax'] ? '&ajax=1' : '')));
 		//else
-		//	$action = ''; // display content ...
+		$action = ''; // display content ...
 	} else // there's some problem with page, give user a chance to fix it
 		$action = 'edit';
 } elseif($action == 'save' && !$preview) { // wrong password, give user another chance
