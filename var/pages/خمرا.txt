@@ -1,0 +1,1 @@
+خمرا = minuman keras

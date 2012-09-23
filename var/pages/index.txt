@@ -1,0 +1,115 @@
+
+[001] Al Fatihah
+[002] Al Baqarah
+[003] Ali Imran
+[004] An Nisaa
+[005] Al Maidah
+[006] Al An'am
+[007] Al A'raf
+[008] Al Anfaal
+[009] At Taubah
+[010] Yunus
+[011] Huud
+[012] Yusuf
+[013] Ar Ra'du
+[014] Ibrahim
+[015] Al Hijr
+[016] An Nahl
+[017] Al Israa'
+[018] Al Kahfi
+[019] Maryam
+[020] Thaahaa
+[021] Al Anbiyaa
+[022] Al Hajj
+[023] Al Mu'minun
+[024] An Nuur
+[025] Al Furqaan
+[026] Asy Syu'ara
+[027] An Naml
+[028] Al Qashash
+[029] Al 'Ankabut
+[030] Ar Ruum
+[031] Luqman
+[032] As Sajdah
+[033] Al Ahzab
+[034] Saba'
+[035] Faathir
+[036] Yaa Siin
+[037] Ash Shaaffat
+[038] Shaad
+[039] Az Zumar
+[040] Al Ghaafir
+[041] Al Fushilat
+[042] Asy Syuura
+[043] Az Zukhruf
+[044] Ad Dukhaan
+[045] Al Jaatsiyah
+[046] Al Ahqaaf
+[047] Muhammad
+[048] Al Fath
+[049] Al Hujuraat
+[050] Qaaf
+[051] Adz Dzaariyaat
+[052] Ath Thuur
+[053] An Najm
+[054] Al Qamar
+[055] Ar Rahmaan
+[056] Al Waaqi'ah
+[057] Al Hadiid
+[058] Al Mujaadalah
+[059] Al Hasyr
+[060] Al mumtahanah
+[061] Ash Shaff
+[062] Al Jumuah
+[063] Al Munafiqun
+[064] Ath Taghabun
+[065] Ath Thalaaq
+[066] At Tahriim
+[067] Al Mulk
+[068] Al Qalam
+[069] Al Haaqqah
+[070] Al Ma'aarij
+[071] Nuh
+[072] Al Jin
+[073] Al Muzammil
+[074] Al Muddastir
+[075] Al Qiyaamah
+[076] Al Insaan
+[077] Al Mursalaat
+[078] An Naba'
+[079] An Naazi'at
+[080] 'Abasa
+[081] At Takwiir
+[082] Al Infitha
+[083] Al Muthaffifin
+[084] Al Insyiqaq
+[085] Al Buruuj
+[086] Ath Thariq
+[087] Al A'laa
+[088] Al Ghaasyiah
+[089] Al Fajr
+[090] Al Balad
+[091] Asy Syams
+[092] Al Lail
+[093] Adh Dhuhaa
+[094] Asy Syarh
+[095] At Tiin
+[096] Al 'Alaq
+[097] Al Qadr
+[098] Al Bayyinah
+[099] Az Zalzalah
+[100] Al 'Aadiyah
+[101] Al Qaari'ah
+[102] At Takaatsur
+[103] Al 'Ashr
+[104] Al Humazah
+[105] Al Fiil
+[106] Quraisy
+[107] Al Maa'uun
+[108] Al Kautsar
+[109] Al Kafirun
+[110] An Nashr
+[111] Al Lahab
+[112] Al Ikhlash
+[113] Al Falaq
+[114] An Naas

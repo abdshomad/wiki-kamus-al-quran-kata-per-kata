@@ -1,0 +1,1 @@
+طولا = panjang/tinggi
