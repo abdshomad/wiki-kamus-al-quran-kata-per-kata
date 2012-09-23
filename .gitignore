@@ -3,3 +3,5 @@ var/history/**/*
 /t.php
 /test.php
 /var/history
+/nbproject
+nbproject
