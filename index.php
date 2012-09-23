@@ -120,14 +120,14 @@ $page = str_replace(':', '.', $page);
 $moveto = str_replace(':', '.', $moveto); 
 
 if(!$action)
-	/* abd.shomad temporarity disable 
+	// /* abd.shomad temporarity disable 
 	if(!$page)
 		die(header("Location:$self?page=" . u($START_PAGE)));
 	elseif(file_exists("$PG_DIR$page.$LANG.txt")) // language variant
 		die(header("Location:$self?page=" . u("$page.$LANG")));
 	elseif(!file_exists("$PG_DIR$page.txt"))
 		$action = 'edit'; // create page if it doesn't exist
-	*/
+	// */
 	
 if($PROTECTED_READ && !authentified()) { // does user need password to read content of site. If yes, ask for it.
 	// abd.shomad change $page to $page_text
@@ -180,6 +180,8 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 
 		$rightnow = date('Ymd-Hi-s', time() + $LOCAL_HOUR * 3600);
 
+		// abd.shomad temporarity disable
+		/*
 		if(!$bak = @fopen("$HIST_DIR$page/$rightnow.bak", 'w'))
 			die("Could not write to $HIST_DIR$page!");
 
@@ -193,6 +195,7 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 			str_pad(substr($esum, 0, 128), 128 + 2)) . "\n";
 
 		fclose($es);
+		*/ 
 
 		if($moveto != $page && $moveto)
 			if(file_exists("$PG_DIR$moveto.txt"))
@@ -422,7 +425,7 @@ if(!$action || $preview) { // page parsing
 
 		$m2_sanitized = str_replace(':', '.', $m[2]); // abd.shomad sanitize, change : to . for file saving? 
 		// abd.shomad temporarity disable 
-		// $attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
+		$attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
 		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
 	}
 
