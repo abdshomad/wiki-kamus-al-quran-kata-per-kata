@@ -9,6 +9,7 @@ set_time_limit(999999);
 <body onload='next()'>
 <?php 
 $surat = $_GET['surat']; 
+if($surat=='') $surat = 1;
 ?>
 
 <?php

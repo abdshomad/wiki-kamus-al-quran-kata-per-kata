@@ -18,6 +18,7 @@ $LOCAL_HOUR = 0;
 
 @error_reporting(E_ERROR | E_WARNING | E_PARSE);
 @ini_set('default_charset', 'UTF-8');
+@ini_set('max_execution_time', 300); //300 seconds = 5 minutes by abd.shomad
 set_magic_quotes_runtime(0);
 umask(0);
 
@@ -119,13 +120,15 @@ $page = str_replace(':', '.', $page);
 $moveto = str_replace(':', '.', $moveto); 
 
 if(!$action)
+	/* abd.shomad temporarity disable 
 	if(!$page)
 		die(header("Location:$self?page=" . u($START_PAGE)));
 	elseif(file_exists("$PG_DIR$page.$LANG.txt")) // language variant
 		die(header("Location:$self?page=" . u("$page.$LANG")));
 	elseif(!file_exists("$PG_DIR$page.txt"))
 		$action = 'edit'; // create page if it doesn't exist
-
+	*/
+	
 if($PROTECTED_READ && !authentified()) { // does user need password to read content of site. If yes, ask for it.
 	// abd.shomad change $page to $page_text
 	$CON = "<form action=\"$self?page=".u($page_text)."\" method=\"post\"><p>$T_PROTECTED_READ <input type=\"password\" name=\"sc\"/> <input class=\"submit\" type=\"submit\"/></p></form>"; // abd.shomad 
@@ -172,7 +175,8 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 		fwrite($file, $content); fclose($file);
 
 		// Backup old revision
-		@mkdir($HIST_DIR.$page, 0777); // Create directory if does not exist
+		// abd.shomad temporarity disable 
+		// @mkdir($HIST_DIR.$page, 0777); // Create directory if does not exist
 
 		$rightnow = date('Ymd-Hi-s', time() + $LOCAL_HOUR * 3600);
 
@@ -417,7 +421,8 @@ if(!$action || $preview) { // page parsing
 		$m[3] = $m[3] ? '#'.u(preg_replace('/[^\da-z]/i', '_', $m[3])) : ''; // anchor
 
 		$m2_sanitized = str_replace(':', '.', $m[2]); // abd.shomad sanitize, change : to . for file saving? 
-		$attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
+		// abd.shomad temporarity disable 
+		// $attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
 		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
 	}
 
