@@ -1,1 +1,0 @@
-جذع = batang/pangkal

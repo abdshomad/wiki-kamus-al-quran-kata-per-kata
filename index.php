@@ -200,11 +200,11 @@ if($action == 'save' && !$preview && authentified()) { // do we have page to sav
 		if($moveto != $page && $moveto)
 			if(file_exists("$PG_DIR$moveto.txt"))
 				die('Error: target filename already exists. Page was not moved.');
-			elseif(!rename("$PG_DIR$page.txt", "$PG_DIR$moveto.txt"))
+			elseif(!rename("$PG_DIR$page.txt", "$PG_DIR$moveto.txt")) {
 				die('Unknown error! Page was not moved.');
-			elseif(!rename($HIST_DIR.$page, $HIST_DIR.$moveto)) {
-				rename("$PG_DIR$moveto.txt", "$PG_DIR$page.txt"); // revert previous change
-				die('Unknown error2! Page was not moved.');
+			//elseif(!rename($HIST_DIR.$page, $HIST_DIR.$moveto)) {
+			//	rename("$PG_DIR$moveto.txt", "$PG_DIR$page.txt"); // revert previous change
+			//	die('Unknown error2! Page was not moved.');
 			} else
 				$page = $moveto;
 

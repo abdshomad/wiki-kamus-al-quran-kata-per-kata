@@ -1,1 +1,0 @@
-شديدا = sangat/keras

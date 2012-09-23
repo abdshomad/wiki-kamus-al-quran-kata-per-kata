@@ -1,1 +1,0 @@
-منازل = tempat-tempat(nya)

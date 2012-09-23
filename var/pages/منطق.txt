@@ -1,1 +1,0 @@
-منطق = ucapan/suara
