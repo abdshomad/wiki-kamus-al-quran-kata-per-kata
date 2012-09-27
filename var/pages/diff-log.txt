@@ -16,3 +16,9 @@
 الخاسرون = ; tanzil
 الخسرون = ; db
 
+سبحانك ; tanzil
+سبحنك ; tanzil
+ 
+ 
+remaining: 
+

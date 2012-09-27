@@ -1,1 +1,1 @@
-بينت = jelas/nyata
+بينت = keterangan yang nyata
