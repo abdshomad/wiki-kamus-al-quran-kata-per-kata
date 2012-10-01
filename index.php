@@ -411,12 +411,12 @@ if(!$action || $preview) { // page parsing
 
 	$CON = preg_replace('#([0-9a-zA-Z\./~\-_]+@[0-9a-z/~\-_]+\.[0-9a-z\./~\-_]+)#i', '<a href="mailto:$0">$0</a>', $CON); // mail recognition
 
-	$CON = preg_replace('#([0-9]{1,3}[:;\.][0-9]{1,3})#i', '<a href="?page=$0">$0</a>', $CON); 
+	$CON = preg_replace('#([0-9]{1,3}[:;\.][0-9]{1,3})#i', '<a href="?page=$0" target="_blank">$0</a>', $CON); 
 	// abd.shomad recognize surah:ayah pattern (eg: 1:1, 1.1)
 
 	// links
-	$CON = preg_replace("#\[([^\]\|]+)\|(\./([^\]]+)|(https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*))\]#U", '<a href="$2" class="external">$1</a>', $CON);
-	$CON = preg_replace("#(?<!\")https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*#i", '<a href="$0" class="external">$0</a>', $CON);
+	$CON = preg_replace("#\[([^\]\|]+)\|(\./([^\]]+)|(https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*))\]#U", '<a href="$2" target="_blank" class="external">$1</a>', $CON);
+	$CON = preg_replace("#(?<!\")https?://[0-9a-zA-Z\.\#/~\-_%=\?\&,\+\:@;!\(\)\*\$']*#i", '<a href="$0" target="_blank" class="external">$0</a>', $CON);
 
 	preg_match_all("/\[(?:([^|\]\"]+)\|)?([^\]\"#]+)(?:#([^\]\"]+))?\]/", $CON, $matches, PREG_SET_ORDER); // matching Wiki links
 
@@ -427,7 +427,7 @@ if(!$action || $preview) { // page parsing
 		$m2_sanitized = str_replace(':', '.', $m[2]); // abd.shomad sanitize, change : to . for file saving? 
 		// abd.shomad temporarity disable 
 		$attr = file_exists("$PG_DIR$m2_sanitized.txt") ? $m[3] : '&amp;action=edit" class="pending';
-		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
+		$CON = str_replace($m[0], '<a href="'.$self.'?page='.u($m[2]).$attr.'" target="_blank">'.$m[1].'</a>', $CON); // abd.shomad : need to sanitize page url? 
 	}
 
 	for($i = 10; $i >= 1; $i--) { // Lists, ordered, unordered
