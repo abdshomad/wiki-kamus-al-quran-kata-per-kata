@@ -1,4 +1,5 @@
 <?php // LionWiki 3.2.9, (c) Adam Zivner, licensed under GNU/GPL v2
+ini_set('memory_limit', '64M');
 foreach($_REQUEST as $k => $v)
 	unset($$k); // register_globals = off
 
