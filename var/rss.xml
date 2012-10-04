@@ -1,698 +1,698 @@
-<rss version="2.0">
-<channel>
-<title>Kolaborasi Kamus Al-Quran Kata per Kata</title>
-<link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php</link>
-<description>RSS feed from Kolaborasi Kamus Al-Quran Kata per Kata</description>
-<language>id</language>
-
-	<item>
-	  <title>1.2</title>
-	  <pubDate>Tue, 11 Sep 2012 15:35:06 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
+<rss version="2.0">
+<channel>
+<title>Kolaborasi Kamus Al-Quran Kata per Kata</title>
+<link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php</link>
+<description>RSS feed from Kolaborasi Kamus Al-Quran Kata per Kata</description>
+<language>id</language>
+
+	<item>
+	  <title>1.2</title>
+	  <pubDate>Tue, 11 Sep 2012 15:35:06 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
 	  <description><pre id="diff">1:2 = satu colon dua 2<ins> 3</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.2</title>
-	  <pubDate>Tue, 11 Sep 2012 15:34:23 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.2</title>
+	  <pubDate>Tue, 11 Sep 2012 15:34:23 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
 	  <description><pre id="diff">1:2 = satu colon dua<ins> 2</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.1</title>
-	  <pubDate>Tue, 11 Sep 2012 15:30:25 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.1</title>
+	  <pubDate>Tue, 11 Sep 2012 15:30:25 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
 	  <description><pre id="diff">1:1 = satu colon satu edited 2 3 4 5<ins> 6</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.4</title>
-	  <pubDate>Tue, 11 Sep 2012 08:02:46 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.4</link>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.4</title>
+	  <pubDate>Tue, 11 Sep 2012 08:02:46 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.4</link>
 	  <description><pre id="diff">1:4 = satu colon empat<ins> edited</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.4</title>
-	  <pubDate>Tue, 11 Sep 2012 07:54:33 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.4</link>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.4</title>
+	  <pubDate>Tue, 11 Sep 2012 07:54:33 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.4</link>
 	  <description><pre id="diff"><ins>1:4 = satu colon empat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.2</title>
-	  <pubDate>Tue, 11 Sep 2012 06:50:11 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.2</title>
+	  <pubDate>Tue, 11 Sep 2012 06:50:11 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.2</link>
 	  <description><pre id="diff"><ins>1:2 = satu colon dua</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>1.1</title>
-	  <pubDate>Tue, 11 Sep 2012 06:34:05 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
-	  <description><pre id="diff"></pre></description>
-	</item>
-
-	<item>
-	  <title>1.1</title>
-	  <pubDate>Tue, 11 Sep 2012 06:08:02 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
-	  <description><pre id="diff"></pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 06:10:41 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* tampilkan github url di setiap halaman, atau di menu: https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata
-* admin facebook comment admin fbid: 1046375195. See: <del>[http://www.myfbid.com/]</del><ins>http://www.myfbid.com/</ins>
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat
-* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
-** like
-** send 
-** facepile
-<ins>* beli domain permanen untuk hosting kamus-al-quran ? </ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 06:10:01 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* <del>show</del><ins>tampilkan</ins> github url<ins> di setiap halaman, atau di menu: https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata</ins>
-* admin facebook comment admin fbid: 1046375195. See: [http://www.myfbid.com/]
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat
-* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
-** like
-** send 
-** facepile
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 06:04:09 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* show github url
-* admin facebook comment admin fbid: <del>1046375195</del><ins>1046375195. See: [http://www.myfbid.com/]</ins>
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat
-* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
-** like
-** send 
-** facepile
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 03:30:00 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* show github url
-* admin facebook comment admin fbid: 1046375195
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat
-* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
-<del>  *</del><ins>**</ins> like<del>
-  *</del><ins>
-**</ins> send <del>
-  *</del><ins>
-**</ins> facepile
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 03:29:37 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* show github url
-* admin facebook comment admin fbid: 1046375195
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat
-<ins>* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
-  * like
-  * send 
-  * facepile</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 03:27:07 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* show github url
-* admin facebook comment admin fbid: 1046375195
-* buat menu
-* buat facebook login
-* undang developer lain ke openshift @ redhat
-<ins>
----
-* generate semua surat
-* tambahkan root
-* gunakan include untuk menampilkan surat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 01:08:29 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff">* show github url
-* admin facebook comment admin fbid: 1046375195
-* buat menu
-* buat facebook login
-<ins>* undang developer lain ke openshift @ redhat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 01:07:47 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff"><del>* buat menu</del>
-* show github url
-<ins>* admin facebook comment admin fbid: 1046375195
-* buat menu
-* buat facebook login</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 01:01:37 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff"><del>[ ]</del><ins>*</ins> buat menu<del>
-[ ]</del><ins>
-*</ins> show github url
-</pre></description>
-	</item>
-
-	<item>
-	  <title>todo</title>
-	  <pubDate>Mon, 10 Sep 2012 00:59:36 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
-	  <description><pre id="diff"><ins>[ ] buat menu
-[ ] show github url</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>index</title>
-	  <pubDate>Mon, 10 Sep 2012 00:58:37 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
-	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
-
-[096-b] Al-'Alaq (tanpa harokat)
-[097-b] Al-Qadr (tanpa harokat)
-[098-b] Al-Bayyinah (tanpa harokat)
-[099-b] Az-Zalzalah (tanpa harokat)
-[100-b] Al-'Aadiyaat (tanpa harokat)
-[101-b] Al-Qaari'ah (tanpa harokat)
-[102-b] At-Takaatsur (tanpa harokat)
-[103-b] Al-'Ashr (tanpa harokat)
-[104-b] Al-Humazah (tanpa harokat)
-[105-b] Al-Fiil (tanpa harokat)
-[106-b] Quraish (tanpa harokat)
-[107-b] Al-Maa'uun (tanpa harokat)
-[108-b] Al-Kautsar (tanpa harokat)
-[109-b] Al-Kaafiruun (tanpa harokat)
-[110-b] An-Nashr (tanpa harokat)
-[111-b] Al-Lahab (tanpa harokat)
-[112-b] Al-Ikhlaash (tanpa harokat)
-[113-b] Al-Falaq (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-
-<ins>===
-[sandbox] [todo]</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>index</title>
-	  <pubDate>Sun, 09 Sep 2012 13:33:25 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
-	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
-
-[096-b] Al-'Alaq (tanpa harokat)
-[097-b] Al-Qadr (tanpa harokat)
-[098-b] Al-Bayyinah (tanpa harokat)
-[099-b] Az-Zalzalah (tanpa harokat)
-[100-b] Al-'Aadiyaat (tanpa harokat)
-[101-b] Al-Qaari'ah (tanpa harokat)
-[102-b] At-Takaatsur (tanpa harokat)
-[103-b] Al-'Ashr (tanpa harokat)
-[104-b] Al-Humazah (tanpa harokat)
-[105-b] Al-Fiil (tanpa harokat)
-[106-b] Quraish (tanpa harokat)
-[107-b] Al-Maa'uun (tanpa harokat)
-[108-b] Al-Kautsar (tanpa harokat)
-[109-b] Al-Kaafiruun (tanpa harokat)
-[110-b] An-Nashr (tanpa harokat)
-[111-b] Al-Lahab (tanpa harokat)
-[112-b] Al-Ikhlaash (tanpa harokat)
-[113-b] Al-Falaq (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-<del>----</del>
-
-<del>[001] Al-Faatihah
-[002] Al-Baqarah
-
-[005] Al-Maaidah
-
-[109] Al-Kaafiruun
-[110] An-Nashr
-[111] Al-Lahab
-[112] Al-Ikhlaash
-[113] Al-Falaq
-[114] An-Naas
-
-----</del>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>096-b</title>
-	  <pubDate>Sat, 08 Sep 2012 01:01:58 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=096-b</link>
-	  <description><pre id="diff"><ins>[96:1] [بسم] [الله] [الرحمن] [الرحيم] [اقرأ] [باسم] [ربك] [الذي] [خلق]
-[96:2] [خلق] [الإنسان] [من] [علق]
-[96:3] [اقرأ] [وربك] [الأكرم]
-[96:4] [الذي] [علم] [بالقلم]
-[96:5] [علم] [الإنسان] [ما] [لم] [يعلم]
-[96:6] [كلا] [إن] [الإنسان] [ليطغى]
-[96:7] [أن] [رآه] [استغنى]
-[96:8] [إن] [إلى] [ربك] [الرجعى]
-[96:9] [أرأيت] [الذي] [ينهى]
-[96:10] [عبدا] [إذا] [صلى]
-[96:11] [أرأيت] [إن] [كان] [على] [الهدى]
-[96:12] [أو] [أمر] [بالتقوى]
-[96:13] [أرأيت] [إن] [كذب] [وتولى]
-[96:14] [ألم] [يعلم] [بأن] [الله] [يرى]
-[96:15] [كلا] [لئن] [لم] [ينته] [لنسفعا] [بالناصية]
-[96:16] [ناصية] [كاذبة] [خاطئة]
-[96:17] [فليدع] [ناديه]
-[96:18] [سندع] [الزبانية]
-[96:19] [كلا] [لا] [تطعه] [واسجد] [واقترب] [۩]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>index</title>
-	  <pubDate>Sat, 08 Sep 2012 01:01:07 +0000</pubDate>
-	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
-	  <description><pre id="diff"><ins>[001-b] Al-Faatihah (tanpa harokat)
-
-[096-b] Al-'Alaq (tanpa harokat)
-[097-b] Al-Qadr (tanpa harokat)
-[098-b] Al-Bayyinah (tanpa harokat)
-[099-b] Az-Zalzalah (tanpa harokat)
-[100-b] Al-'Aadiyaat (tanpa harokat)
-[101-b] Al-Qaari'ah (tanpa harokat)
-[102-b] At-Takaatsur (tanpa harokat)
-[103-b] Al-'Ashr (tanpa harokat)
-[104-b] Al-Humazah (tanpa harokat)
-[105-b] Al-Fiil (tanpa harokat)
-[106-b] Quraish (tanpa harokat)
-[107-b] Al-Maa'uun (tanpa harokat)
-[108-b] Al-Kautsar (tanpa harokat)
-[109-b] Al-Kaafiruun (tanpa harokat)
-[110-b] An-Nashr (tanpa harokat)
-[111-b] Al-Lahab (tanpa harokat)
-[112-b] Al-Ikhlaash (tanpa harokat)
-[113-b] Al-Falaq (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-----
-
-[001] Al-Faatihah
-[002] Al-Baqarah
-
-[005] Al-Maaidah
-
-[109] Al-Kaafiruun
-[110] An-Nashr
-[111] Al-Lahab
-[112] Al-Ikhlaash
-[113] Al-Falaq
-[114] An-Naas
-
-----</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>سلام</title>
-	  <pubDate>Fri, 07 Sep 2012 16:24:53 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%B3%D9%84%D8%A7%D9%85</link>
-	  <description><pre id="diff"><ins>سلام = sejahtera</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الملائكة</title>
-	  <pubDate>Fri, 07 Sep 2012 16:24:40 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A6%D9%83%D8%A9</link>
-	  <description><pre id="diff"><ins>الملائكة = para malaikat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>أنزلناه</title>
-	  <pubDate>Fri, 07 Sep 2012 16:24:18 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%86%D8%B2%D9%84%D9%86%D8%A7%D9%87</link>
-	  <description><pre id="diff"><ins>أنزلناه = kami telah menurunkan ia</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>097-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:23:53 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=097-b</link>
-	  <description><pre id="diff"><ins>[97:1] [بسم] [الله] [الرحمن] [الرحيم] [إنا] [أنزلناه] [في] [ليلة] [القدر]
-[97:2] [وما] [أدراك] [ما] [ليلة] [القدر]
-[97:3] [ليلة] [القدر] [خير] [من] [ألف] [شهر]
-[97:4] [تنزل] [الملائكة] [والروح] [فيها] [بإذن] [ربهم] [من] [كل] [أمر]
-[97:5] [سلام] [هي] [حتى] [مطلع] [الفجر]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الأنهار</title>
-	  <pubDate>Fri, 07 Sep 2012 16:23:21 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%A3%D9%86%D9%87%D8%A7%D8%B1</link>
-	  <description><pre id="diff"><ins>الأنهار = sungai-sungai</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>جنات</title>
-	  <pubDate>Fri, 07 Sep 2012 16:22:53 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AC%D9%86%D8%A7%D8%AA</link>
-	  <description><pre id="diff"><ins>جنات = surga-surga</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>خالدين</title>
-	  <pubDate>Fri, 07 Sep 2012 16:22:18 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AE%D8%A7%D9%84%D8%AF%D9%8A%D9%86</link>
-	  <description><pre id="diff"><ins>خالدين = mereka kekal</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الزكاة</title>
-	  <pubDate>Fri, 07 Sep 2012 16:21:31 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9</link>
-	  <description><pre id="diff"><ins>الزكاة = zakat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الصلاة</title>
-	  <pubDate>Fri, 07 Sep 2012 16:21:24 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9</link>
-	  <description><pre id="diff"><ins>الصلاة = sholat</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>يتلو</title>
-	  <pubDate>Fri, 07 Sep 2012 16:21:03 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D8%AA%D9%84%D9%88</link>
-	  <description><pre id="diff"><ins>يتلو = dia membacakan</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الكتاب</title>
-	  <pubDate>Fri, 07 Sep 2012 16:20:45 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8</link>
-	  <description><pre id="diff"><ins>الكتاب = kitab</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>098-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:19:31 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=098-b</link>
-	  <description><pre id="diff"><ins>[98:1] [بسم] [الله] [الرحمن] [الرحيم] [لم] [يكن] [الذين] [كفروا] [من] [أهل] [الكتاب] [والمشركين] [منفكين] [حتى] [تأتيهم] [البينة]
-[98:2] [رسول] [من] [الله] [يتلو] [صحفا] [مطهرة]
-[98:3] [فيها] [كتب] [قيمة]
-[98:4] [وما] [تفرق] [الذين] [أوتوا] [الكتاب] [إلا] [من] [بعد] [ما] [جاءتهم] [البينة]
-[98:5] [وما] [أمروا] [إلا] [ليعبدوا] [الله] [مخلصين] [له] [الدين] [حنفاء] [ويقيموا] [الصلاة] [ويؤتوا] [الزكاة] [ۚ] [وذلك] [دين] [القيمة]
-[98:6] [إن] [الذين] [كفروا] [من] [أهل] [الكتاب] [والمشركين] [في] [نار] [جهنم] [خالدين] [فيها] [ۚ] [أولئك] [هم] [شر] [البرية]
-[98:7] [إن] [الذين] [آمنوا] [وعملوا] [الصالحات] [أولئك] [هم] [خير] [البرية]
-[98:8] [جزاؤهم] [عند] [ربهم] [جنات] [عدن] [تجري] [من] [تحتها] [الأنهار] [خالدين] [فيها] [أبدا] [ۖ] [رضي] [الله] [عنهم] [ورضوا] [عنه] [ۚ] [ذلك] [لمن] [خشي] [ربه]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>أعمالهم</title>
-	  <pubDate>Fri, 07 Sep 2012 16:19:09 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%87%D9%85</link>
-	  <description><pre id="diff"><ins>أعمالهم = amal-amal mereka</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>099-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:18:49 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=099-b</link>
-	  <description><pre id="diff"><ins>[99:1] [بسم] [الله] [الرحمن] [الرحيم] [إذا] [زلزلت] [الأرض] [زلزالها]
-[99:2] [وأخرجت] [الأرض] [أثقالها]
-[99:3] [وقال] [الإنسان] [ما] [لها]
-[99:4] [يومئذ] [تحدث] [أخبارها]
-[99:5] [بأن] [ربك] [أوحى] [لها]
-[99:6] [يومئذ] [يصدر] [الناس] [أشتاتا] [ليروا] [أعمالهم]
-[99:7] [فمن] [يعمل] [مثقال] [ذرة] [خيرا] [يره]
-[99:8] [ومن] [يعمل] [مثقال] [ذرة] [شرا] [يره]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>فالمغيرات</title>
-	  <pubDate>Fri, 07 Sep 2012 16:18:27 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%81%D8%A7%D9%84%D9%85%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA</link>
-	  <description><pre id="diff"><ins>فالمغيرات = lalu yang menyerang</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>فالموريات</title>
-	  <pubDate>Fri, 07 Sep 2012 16:17:58 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%81%D8%A7%D9%84%D9%85%D9%88%D8%B1%D9%8A%D8%A7%D8%AA</link>
-	  <description><pre id="diff"><ins>فالموريات = lalu yang memercikkan/terbitkan</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>والعاديات</title>
-	  <pubDate>Fri, 07 Sep 2012 16:17:36 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A7%D8%AA</link>
-	  <description><pre id="diff"><ins>والعاديات = demi yang berlari kencang</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>100-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:17:16 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=100-b</link>
-	  <description><pre id="diff"><ins>[100:1] [بسم] [الله] [الرحمن] [الرحيم] [والعاديات] [ضبحا]
-[100:2] [فالموريات] [قدحا]
-[100:3] [فالمغيرات] [صبحا]
-[100:4] [فأثرن] [به] [نقعا]
-[100:5] [فوسطن] [به] [جمعا]
-[100:6] [إن] [الإنسان] [لربه] [لكنود]
-[100:7] [وإنه] [على] [ذلك] [لشهيد]
-[100:8] [وإنه] [لحب] [الخير] [لشديد]
-[100:9] [أفلا] [يعلم] [إذا] [بعثر] [ما] [في] [القبور]
-[100:10] [وحصل] [ما] [في] [الصدور]
-[100:11] [إن] [ربهم] [بهم] [يومئذ] [لخبير]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>موازينه</title>
-	  <pubDate>Fri, 07 Sep 2012 16:16:44 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%85%D9%88%D8%A7%D8%B2%D9%8A%D9%86%D9%87</link>
-	  <description><pre id="diff"><ins>موازينه = timbangannya</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>101-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:16:02 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=101-b</link>
-	  <description><pre id="diff"><ins>[101:1] [بسم] [الله] [الرحمن] [الرحيم] [القارعة]
-[101:2] [ما] [القارعة]
-[101:3] [وما] [أدراك] [ما] [القارعة]
-[101:4] [يوم] [يكون] [الناس] [كالفراش] [المبثوث]
-[101:5] [وتكون] [الجبال] [كالعهن] [المنفوش]
-[101:6] [فأما] [من] [ثقلت] [موازينه]
-[101:7] [فهو] [في] [عيشة] [راضية]
-[101:8] [وأما] [من] [خفت] [موازينه]
-[101:9] [فأمه] [هاوية]
-[101:10] [وما] [أدراك] [ما] [هيه]
-[101:11] [نار] [حامية]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>index</title>
-	  <pubDate>Fri, 07 Sep 2012 16:15:38 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
-	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
-
-<del>[102-b]</del><ins>[097-b] Al-Qadr (tanpa harokat)
-[098-b] Al-Bayyinah (tanpa harokat)
-[099-b] Az-Zalzalah (tanpa harokat)
-[100-b] Al-'Aadiyaat (tanpa harokat)
-[101-b] Al-Qaari'ah (tanpa harokat)
-[102-b]</ins> At-Takaatsur<ins> (tanpa harokat)</ins>
-[103-b] Al-'Ashr (tanpa harokat)
-[104-b] Al-Humazah (tanpa harokat)
-[105-b] Al-Fiil (tanpa harokat)
-[106-b] Quraish (tanpa harokat)
-[107-b] Al-Maa'uun (tanpa harokat)
-[108-b] Al-Kautsar (tanpa harokat)
-[109-b] Al-Kaafiruun (tanpa harokat)
-[110-b] An-Nashr (tanpa harokat)
-[111-b] Al-Lahab (tanpa harokat)
-[112-b] Al-Ikhlaash (tanpa harokat)
-[113-b] Al-Falaq (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-[114-b] An-Naas (tanpa harokat)
-----
-
-[001] Al-Faatihah
-[002] Al-Baqarah
-
-[005] Al-Maaidah
-
-[109] Al-Kaafiruun
-[110] An-Nashr
-[111] Al-Lahab
-[112] Al-Ikhlaash
-[113] Al-Falaq
-[114] An-Naas
-
-----
-</pre></description>
-	</item>
-
-	<item>
-	  <title>لتسألن</title>
-	  <pubDate>Fri, 07 Sep 2012 16:12:58 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%84%D8%AA%D8%B3%D8%A3%D9%84%D9%86</link>
-	  <description><pre id="diff"><ins>لتسألن = sungguh kalian akan benar-benar ditanya</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>ألهاكم</title>
-	  <pubDate>Fri, 07 Sep 2012 16:12:38 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%84%D9%87%D8%A7%D9%83%D9%85</link>
-	  <description><pre id="diff"><ins>ألهاكم = telah melalaikan kalian</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>102-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:11:35 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=102-b</link>
-	  <description><pre id="diff"><ins>[102:1] [بسم] [الله] [الرحمن] [الرحيم] [ألهاكم] [التكاثر]
-[102:2] [حتى] [زرتم] [المقابر]
-[102:3] [كلا] [سوف] [تعلمون]
-[102:4] [ثم] [كلا] [سوف] [تعلمون]
-[102:5] [كلا] [لو] [تعلمون] [علم] [اليقين]
-[102:6] [لترون] [الجحيم]
-[102:7] [ثم] [لترونها] [عين] [اليقين]
-[102:8] [ثم] [لتسألن] [يومئذ] [عن] [النعيم]
-</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الصالحات</title>
-	  <pubDate>Fri, 07 Sep 2012 16:11:12 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D8%A7%D8%AA</link>
-	  <description><pre id="diff"><ins>الصالحات = kebajikan</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>آمنوا</title>
-	  <pubDate>Fri, 07 Sep 2012 16:10:55 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A2%D9%85%D9%86%D9%88%D8%A7</link>
-	  <description><pre id="diff"><ins>آمنوا = beriman</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>الإنسان</title>
-	  <pubDate>Fri, 07 Sep 2012 16:10:40 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86</link>
-	  <description><pre id="diff"><ins>الإنسان = manusia</ins>
-</pre></description>
-	</item>
-
-	<item>
-	  <title>103-b</title>
-	  <pubDate>Fri, 07 Sep 2012 16:10:24 +0200</pubDate>
-	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=103-b</link>
-	  <description><pre id="diff"><ins>[103:1] [بسم] [الله] [الرحمن] [الرحيم] [والعصر]
-[103:2] [إن] [الإنسان] [لفي] [خسر]
-[103:3] [إلا] [الذين] [آمنوا] [وعملوا] [الصالحات] [وتواصوا] [بالحق] [وتواصوا] [بالصبر]
-</ins>
-</pre></description>
-	</item>
-</channel>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>1.1</title>
+	  <pubDate>Tue, 11 Sep 2012 06:34:05 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
+	  <description><pre id="diff"></pre></description>
+	</item>
+
+	<item>
+	  <title>1.1</title>
+	  <pubDate>Tue, 11 Sep 2012 06:08:02 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=1.1</link>
+	  <description><pre id="diff"></pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 06:10:41 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* tampilkan github url di setiap halaman, atau di menu: https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata
+* admin facebook comment admin fbid: 1046375195. See: <del>[http://www.myfbid.com/]</del><ins>http://www.myfbid.com/</ins>
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat
+* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+** like
+** send 
+** facepile
+<ins>* beli domain permanen untuk hosting kamus-al-quran ? </ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 06:10:01 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* <del>show</del><ins>tampilkan</ins> github url<ins> di setiap halaman, atau di menu: https://github.com/abdshomad/wiki-kamus-al-quran-kata-per-kata</ins>
+* admin facebook comment admin fbid: 1046375195. See: [http://www.myfbid.com/]
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat
+* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+** like
+** send 
+** facepile
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 06:04:09 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* show github url
+* admin facebook comment admin fbid: <del>1046375195</del><ins>1046375195. See: [http://www.myfbid.com/]</ins>
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat
+* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+** like
+** send 
+** facepile
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 03:30:00 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* show github url
+* admin facebook comment admin fbid: 1046375195
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat
+* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+<del>  *</del><ins>**</ins> like<del>
+  *</del><ins>
+**</ins> send <del>
+  *</del><ins>
+**</ins> facepile
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 03:29:37 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* show github url
+* admin facebook comment admin fbid: 1046375195
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat
+<ins>* gunakan semua tools [facebook social plugins | http://developers.facebook.com/docs/plugins/ ] 
+  * like
+  * send 
+  * facepile</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 03:27:07 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* show github url
+* admin facebook comment admin fbid: 1046375195
+* buat menu
+* buat facebook login
+* undang developer lain ke openshift @ redhat
+<ins>
+---
+* generate semua surat
+* tambahkan root
+* gunakan include untuk menampilkan surat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 01:08:29 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff">* show github url
+* admin facebook comment admin fbid: 1046375195
+* buat menu
+* buat facebook login
+<ins>* undang developer lain ke openshift @ redhat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 01:07:47 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff"><del>* buat menu</del>
+* show github url
+<ins>* admin facebook comment admin fbid: 1046375195
+* buat menu
+* buat facebook login</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 01:01:37 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff"><del>[ ]</del><ins>*</ins> buat menu<del>
+[ ]</del><ins>
+*</ins> show github url
+</pre></description>
+	</item>
+
+	<item>
+	  <title>todo</title>
+	  <pubDate>Mon, 10 Sep 2012 00:59:36 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=todo</link>
+	  <description><pre id="diff"><ins>[ ] buat menu
+[ ] show github url</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Mon, 10 Sep 2012 00:58:37 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
+	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
+
+[096-b] Al-'Alaq (tanpa harokat)
+[097-b] Al-Qadr (tanpa harokat)
+[098-b] Al-Bayyinah (tanpa harokat)
+[099-b] Az-Zalzalah (tanpa harokat)
+[100-b] Al-'Aadiyaat (tanpa harokat)
+[101-b] Al-Qaari'ah (tanpa harokat)
+[102-b] At-Takaatsur (tanpa harokat)
+[103-b] Al-'Ashr (tanpa harokat)
+[104-b] Al-Humazah (tanpa harokat)
+[105-b] Al-Fiil (tanpa harokat)
+[106-b] Quraish (tanpa harokat)
+[107-b] Al-Maa'uun (tanpa harokat)
+[108-b] Al-Kautsar (tanpa harokat)
+[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+
+<ins>===
+[sandbox] [todo]</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Sun, 09 Sep 2012 13:33:25 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
+	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
+
+[096-b] Al-'Alaq (tanpa harokat)
+[097-b] Al-Qadr (tanpa harokat)
+[098-b] Al-Bayyinah (tanpa harokat)
+[099-b] Az-Zalzalah (tanpa harokat)
+[100-b] Al-'Aadiyaat (tanpa harokat)
+[101-b] Al-Qaari'ah (tanpa harokat)
+[102-b] At-Takaatsur (tanpa harokat)
+[103-b] Al-'Ashr (tanpa harokat)
+[104-b] Al-Humazah (tanpa harokat)
+[105-b] Al-Fiil (tanpa harokat)
+[106-b] Quraish (tanpa harokat)
+[107-b] Al-Maa'uun (tanpa harokat)
+[108-b] Al-Kautsar (tanpa harokat)
+[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+<del>----</del>
+
+<del>[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----</del>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>096-b</title>
+	  <pubDate>Sat, 08 Sep 2012 01:01:58 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=096-b</link>
+	  <description><pre id="diff"><ins>[96:1] [بسم] [الله] [الرحمن] [الرحيم] [اقرأ] [باسم] [ربك] [الذي] [خلق]
+[96:2] [خلق] [الإنسان] [من] [علق]
+[96:3] [اقرأ] [وربك] [الأكرم]
+[96:4] [الذي] [علم] [بالقلم]
+[96:5] [علم] [الإنسان] [ما] [لم] [يعلم]
+[96:6] [كلا] [إن] [الإنسان] [ليطغى]
+[96:7] [أن] [رآه] [استغنى]
+[96:8] [إن] [إلى] [ربك] [الرجعى]
+[96:9] [أرأيت] [الذي] [ينهى]
+[96:10] [عبدا] [إذا] [صلى]
+[96:11] [أرأيت] [إن] [كان] [على] [الهدى]
+[96:12] [أو] [أمر] [بالتقوى]
+[96:13] [أرأيت] [إن] [كذب] [وتولى]
+[96:14] [ألم] [يعلم] [بأن] [الله] [يرى]
+[96:15] [كلا] [لئن] [لم] [ينته] [لنسفعا] [بالناصية]
+[96:16] [ناصية] [كاذبة] [خاطئة]
+[96:17] [فليدع] [ناديه]
+[96:18] [سندع] [الزبانية]
+[96:19] [كلا] [لا] [تطعه] [واسجد] [واقترب] [۩]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Sat, 08 Sep 2012 01:01:07 +0000</pubDate>
+	  <link>http://kamus-quran.rhcloud.com:80/wiki-kamus-al-quran-kata-per-kata/index.php?page=index</link>
+	  <description><pre id="diff"><ins>[001-b] Al-Faatihah (tanpa harokat)
+
+[096-b] Al-'Alaq (tanpa harokat)
+[097-b] Al-Qadr (tanpa harokat)
+[098-b] Al-Bayyinah (tanpa harokat)
+[099-b] Az-Zalzalah (tanpa harokat)
+[100-b] Al-'Aadiyaat (tanpa harokat)
+[101-b] Al-Qaari'ah (tanpa harokat)
+[102-b] At-Takaatsur (tanpa harokat)
+[103-b] Al-'Ashr (tanpa harokat)
+[104-b] Al-Humazah (tanpa harokat)
+[105-b] Al-Fiil (tanpa harokat)
+[106-b] Quraish (tanpa harokat)
+[107-b] Al-Maa'uun (tanpa harokat)
+[108-b] Al-Kautsar (tanpa harokat)
+[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+----
+
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>سلام</title>
+	  <pubDate>Fri, 07 Sep 2012 16:24:53 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%B3%D9%84%D8%A7%D9%85</link>
+	  <description><pre id="diff"><ins>سلام = sejahtera</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الملائكة</title>
+	  <pubDate>Fri, 07 Sep 2012 16:24:40 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A6%D9%83%D8%A9</link>
+	  <description><pre id="diff"><ins>الملائكة = para malaikat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>أنزلناه</title>
+	  <pubDate>Fri, 07 Sep 2012 16:24:18 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%86%D8%B2%D9%84%D9%86%D8%A7%D9%87</link>
+	  <description><pre id="diff"><ins>أنزلناه = kami telah menurunkan ia</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>097-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:23:53 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=097-b</link>
+	  <description><pre id="diff"><ins>[97:1] [بسم] [الله] [الرحمن] [الرحيم] [إنا] [أنزلناه] [في] [ليلة] [القدر]
+[97:2] [وما] [أدراك] [ما] [ليلة] [القدر]
+[97:3] [ليلة] [القدر] [خير] [من] [ألف] [شهر]
+[97:4] [تنزل] [الملائكة] [والروح] [فيها] [بإذن] [ربهم] [من] [كل] [أمر]
+[97:5] [سلام] [هي] [حتى] [مطلع] [الفجر]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الأنهار</title>
+	  <pubDate>Fri, 07 Sep 2012 16:23:21 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%A3%D9%86%D9%87%D8%A7%D8%B1</link>
+	  <description><pre id="diff"><ins>الأنهار = sungai-sungai</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>جنات</title>
+	  <pubDate>Fri, 07 Sep 2012 16:22:53 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AC%D9%86%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>جنات = surga-surga</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>خالدين</title>
+	  <pubDate>Fri, 07 Sep 2012 16:22:18 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%AE%D8%A7%D9%84%D8%AF%D9%8A%D9%86</link>
+	  <description><pre id="diff"><ins>خالدين = mereka kekal</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الزكاة</title>
+	  <pubDate>Fri, 07 Sep 2012 16:21:31 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D8%A9</link>
+	  <description><pre id="diff"><ins>الزكاة = zakat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الصلاة</title>
+	  <pubDate>Fri, 07 Sep 2012 16:21:24 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D9%84%D8%A7%D8%A9</link>
+	  <description><pre id="diff"><ins>الصلاة = sholat</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>يتلو</title>
+	  <pubDate>Fri, 07 Sep 2012 16:21:03 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%8A%D8%AA%D9%84%D9%88</link>
+	  <description><pre id="diff"><ins>يتلو = dia membacakan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الكتاب</title>
+	  <pubDate>Fri, 07 Sep 2012 16:20:45 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8</link>
+	  <description><pre id="diff"><ins>الكتاب = kitab</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>098-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:19:31 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=098-b</link>
+	  <description><pre id="diff"><ins>[98:1] [بسم] [الله] [الرحمن] [الرحيم] [لم] [يكن] [الذين] [كفروا] [من] [أهل] [الكتاب] [والمشركين] [منفكين] [حتى] [تأتيهم] [البينة]
+[98:2] [رسول] [من] [الله] [يتلو] [صحفا] [مطهرة]
+[98:3] [فيها] [كتب] [قيمة]
+[98:4] [وما] [تفرق] [الذين] [أوتوا] [الكتاب] [إلا] [من] [بعد] [ما] [جاءتهم] [البينة]
+[98:5] [وما] [أمروا] [إلا] [ليعبدوا] [الله] [مخلصين] [له] [الدين] [حنفاء] [ويقيموا] [الصلاة] [ويؤتوا] [الزكاة] [ۚ] [وذلك] [دين] [القيمة]
+[98:6] [إن] [الذين] [كفروا] [من] [أهل] [الكتاب] [والمشركين] [في] [نار] [جهنم] [خالدين] [فيها] [ۚ] [أولئك] [هم] [شر] [البرية]
+[98:7] [إن] [الذين] [آمنوا] [وعملوا] [الصالحات] [أولئك] [هم] [خير] [البرية]
+[98:8] [جزاؤهم] [عند] [ربهم] [جنات] [عدن] [تجري] [من] [تحتها] [الأنهار] [خالدين] [فيها] [أبدا] [ۖ] [رضي] [الله] [عنهم] [ورضوا] [عنه] [ۚ] [ذلك] [لمن] [خشي] [ربه]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>أعمالهم</title>
+	  <pubDate>Fri, 07 Sep 2012 16:19:09 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D8%B9%D9%85%D8%A7%D9%84%D9%87%D9%85</link>
+	  <description><pre id="diff"><ins>أعمالهم = amal-amal mereka</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>099-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:18:49 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=099-b</link>
+	  <description><pre id="diff"><ins>[99:1] [بسم] [الله] [الرحمن] [الرحيم] [إذا] [زلزلت] [الأرض] [زلزالها]
+[99:2] [وأخرجت] [الأرض] [أثقالها]
+[99:3] [وقال] [الإنسان] [ما] [لها]
+[99:4] [يومئذ] [تحدث] [أخبارها]
+[99:5] [بأن] [ربك] [أوحى] [لها]
+[99:6] [يومئذ] [يصدر] [الناس] [أشتاتا] [ليروا] [أعمالهم]
+[99:7] [فمن] [يعمل] [مثقال] [ذرة] [خيرا] [يره]
+[99:8] [ومن] [يعمل] [مثقال] [ذرة] [شرا] [يره]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>فالمغيرات</title>
+	  <pubDate>Fri, 07 Sep 2012 16:18:27 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%81%D8%A7%D9%84%D9%85%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>فالمغيرات = lalu yang menyerang</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>فالموريات</title>
+	  <pubDate>Fri, 07 Sep 2012 16:17:58 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%81%D8%A7%D9%84%D9%85%D9%88%D8%B1%D9%8A%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>فالموريات = lalu yang memercikkan/terbitkan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>والعاديات</title>
+	  <pubDate>Fri, 07 Sep 2012 16:17:36 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%88%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D9%8A%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>والعاديات = demi yang berlari kencang</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>100-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:17:16 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=100-b</link>
+	  <description><pre id="diff"><ins>[100:1] [بسم] [الله] [الرحمن] [الرحيم] [والعاديات] [ضبحا]
+[100:2] [فالموريات] [قدحا]
+[100:3] [فالمغيرات] [صبحا]
+[100:4] [فأثرن] [به] [نقعا]
+[100:5] [فوسطن] [به] [جمعا]
+[100:6] [إن] [الإنسان] [لربه] [لكنود]
+[100:7] [وإنه] [على] [ذلك] [لشهيد]
+[100:8] [وإنه] [لحب] [الخير] [لشديد]
+[100:9] [أفلا] [يعلم] [إذا] [بعثر] [ما] [في] [القبور]
+[100:10] [وحصل] [ما] [في] [الصدور]
+[100:11] [إن] [ربهم] [بهم] [يومئذ] [لخبير]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>موازينه</title>
+	  <pubDate>Fri, 07 Sep 2012 16:16:44 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%85%D9%88%D8%A7%D8%B2%D9%8A%D9%86%D9%87</link>
+	  <description><pre id="diff"><ins>موازينه = timbangannya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>101-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:16:02 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=101-b</link>
+	  <description><pre id="diff"><ins>[101:1] [بسم] [الله] [الرحمن] [الرحيم] [القارعة]
+[101:2] [ما] [القارعة]
+[101:3] [وما] [أدراك] [ما] [القارعة]
+[101:4] [يوم] [يكون] [الناس] [كالفراش] [المبثوث]
+[101:5] [وتكون] [الجبال] [كالعهن] [المنفوش]
+[101:6] [فأما] [من] [ثقلت] [موازينه]
+[101:7] [فهو] [في] [عيشة] [راضية]
+[101:8] [وأما] [من] [خفت] [موازينه]
+[101:9] [فأمه] [هاوية]
+[101:10] [وما] [أدراك] [ما] [هيه]
+[101:11] [نار] [حامية]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>index</title>
+	  <pubDate>Fri, 07 Sep 2012 16:15:38 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=index</link>
+	  <description><pre id="diff">[001-b] Al-Faatihah (tanpa harokat)
+
+<del>[102-b]</del><ins>[097-b] Al-Qadr (tanpa harokat)
+[098-b] Al-Bayyinah (tanpa harokat)
+[099-b] Az-Zalzalah (tanpa harokat)
+[100-b] Al-'Aadiyaat (tanpa harokat)
+[101-b] Al-Qaari'ah (tanpa harokat)
+[102-b]</ins> At-Takaatsur<ins> (tanpa harokat)</ins>
+[103-b] Al-'Ashr (tanpa harokat)
+[104-b] Al-Humazah (tanpa harokat)
+[105-b] Al-Fiil (tanpa harokat)
+[106-b] Quraish (tanpa harokat)
+[107-b] Al-Maa'uun (tanpa harokat)
+[108-b] Al-Kautsar (tanpa harokat)
+[109-b] Al-Kaafiruun (tanpa harokat)
+[110-b] An-Nashr (tanpa harokat)
+[111-b] Al-Lahab (tanpa harokat)
+[112-b] Al-Ikhlaash (tanpa harokat)
+[113-b] Al-Falaq (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+[114-b] An-Naas (tanpa harokat)
+----
+
+[001] Al-Faatihah
+[002] Al-Baqarah
+
+[005] Al-Maaidah
+
+[109] Al-Kaafiruun
+[110] An-Nashr
+[111] Al-Lahab
+[112] Al-Ikhlaash
+[113] Al-Falaq
+[114] An-Naas
+
+----
+</pre></description>
+	</item>
+
+	<item>
+	  <title>لتسألن</title>
+	  <pubDate>Fri, 07 Sep 2012 16:12:58 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D9%84%D8%AA%D8%B3%D8%A3%D9%84%D9%86</link>
+	  <description><pre id="diff"><ins>لتسألن = sungguh kalian akan benar-benar ditanya</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>ألهاكم</title>
+	  <pubDate>Fri, 07 Sep 2012 16:12:38 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A3%D9%84%D9%87%D8%A7%D9%83%D9%85</link>
+	  <description><pre id="diff"><ins>ألهاكم = telah melalaikan kalian</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>102-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:11:35 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=102-b</link>
+	  <description><pre id="diff"><ins>[102:1] [بسم] [الله] [الرحمن] [الرحيم] [ألهاكم] [التكاثر]
+[102:2] [حتى] [زرتم] [المقابر]
+[102:3] [كلا] [سوف] [تعلمون]
+[102:4] [ثم] [كلا] [سوف] [تعلمون]
+[102:5] [كلا] [لو] [تعلمون] [علم] [اليقين]
+[102:6] [لترون] [الجحيم]
+[102:7] [ثم] [لترونها] [عين] [اليقين]
+[102:8] [ثم] [لتسألن] [يومئذ] [عن] [النعيم]
+</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الصالحات</title>
+	  <pubDate>Fri, 07 Sep 2012 16:11:12 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%B5%D8%A7%D9%84%D8%AD%D8%A7%D8%AA</link>
+	  <description><pre id="diff"><ins>الصالحات = kebajikan</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>آمنوا</title>
+	  <pubDate>Fri, 07 Sep 2012 16:10:55 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A2%D9%85%D9%86%D9%88%D8%A7</link>
+	  <description><pre id="diff"><ins>آمنوا = beriman</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>الإنسان</title>
+	  <pubDate>Fri, 07 Sep 2012 16:10:40 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86</link>
+	  <description><pre id="diff"><ins>الإنسان = manusia</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>103-b</title>
+	  <pubDate>Fri, 07 Sep 2012 16:10:24 +0200</pubDate>
+	  <link>http://localhost:81/dropbox/projects/kamus-al-quran/kamus-al-quran.local/index.php?page=103-b</link>
+	  <description><pre id="diff"><ins>[103:1] [بسم] [الله] [الرحمن] [الرحيم] [والعصر]
+[103:2] [إن] [الإنسان] [لفي] [خسر]
+[103:3] [إلا] [الذين] [آمنوا] [وعملوا] [الصالحات] [وتواصوا] [بالحق] [وتواصوا] [بالصبر]
+</ins>
+</pre></description>
+	</item>
+</channel>
 </rss>

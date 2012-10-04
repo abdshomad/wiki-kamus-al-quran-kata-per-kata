@@ -1,10 +1,16 @@
-RewriteEngine On
+# -FrontPage-
 
-# Some hosts may require you to use the `RewriteBase` directive.
-# If you need to use the `RewriteBase` directive, it should be the
-# absolute physical path to the directory that contains this htaccess file.
-#
-# RewriteBase /
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [QSA,L]
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName kamus-quran.web.id
+AuthUserFile /home/kamusqu1/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/kamusqu1/public_html/_vti_pvt/service.grp
