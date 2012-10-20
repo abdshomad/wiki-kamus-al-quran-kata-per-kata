@@ -509,7 +509,8 @@ $tpl_subs = array(
 	'PAGE_TITLE_HEAD' => h($TITLE),
 	'PAGE_URL' => u($page),
 	// abd.shomad add PAGE_ABSOLUTE_URL for facebook :) 
-	'PAGE_ABSOLUTE_URL' => 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . "?page=".u($page_text),
+	// 'PAGE_ABSOLUTE_URL' => 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME'] . "?page=".u($page_text),
+	'PAGE_ABSOLUTE_URL' => 'http://kamus-quran.rhcloud.com' . $_SERVER['SCRIPT_NAME'] . "?page=".u($page_text),
 	// abd.shomad change $page to $page_text
 	'EDIT' => !$action ? ("<a href=\"$self?page=".u($page_text)."&amp;action=edit".(is_writable("$PG_DIR$page.txt") ? "\">$T_EDIT</a>" : "&amp;showsource=1\">$T_SHOW_SOURCE</a>")) : "",
 	'WIKI_TITLE' => h($WIKI_TITLE),
