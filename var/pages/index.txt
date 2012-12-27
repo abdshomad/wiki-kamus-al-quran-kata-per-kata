@@ -1,5 +1,4 @@
-
-[001] Al Fatihah
+[001] Al Fatihah [001-t] &lt; -- "001-t" adalah contoh output lengkap yang nanti diharapkan. Coba klik dia. 
 [002] Al Baqarah
 [003] Ali Imran
 [004] An Nisaa
