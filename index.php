@@ -225,7 +225,7 @@ if($action == 'edit' || $preview) {
 	$CON_FORM_BEGIN = "<form action=\"$self\" method=\"post\"><input type=\"hidden\" name=\"action\" value=\"save\"/><input type=\"hidden\" name=\"last_changed\" value=\"$last_changed_ts\"/><input type=\"hidden\" name=\"showsource\" value=\"$showsource\"/><input type=\"hidden\" name=\"par\" value=\"".h($par)."\"/><input type=\"hidden\" name=\"page\" value=\"".h($page_text)."\"/>"; // abd.shomad : TODO : error 
 	$CON_FORM_END = '</form>';
 	if($CON=='')$CON = $page_text . ' = '; // abd.shomad
-	$CON_TEXTAREA = '<textarea class="contentTextarea" name="content" style="width:100%" cols="100" rows="20">'.h(str_replace("&lt;", "<", $CON)).'</textarea>';
+	$CON_TEXTAREA = '<textarea class="contentTextarea" name="content" style="width:100%" cols="100" rows="14">'.h(str_replace("&lt;", "<", $CON)).'</textarea>';
 	$CON_PREVIEW = '<input class="submit" type="submit" name="preview" value="'.$T_PREVIEW.'"/>';
 
 	if(!$showsource) {
