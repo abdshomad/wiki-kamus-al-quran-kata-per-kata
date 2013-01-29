@@ -1,1 +1,7 @@
 لا = tidak
+
+-- Page 505 of Dictionary Of The Holy Qur'an, by Abdul Mannan Omar -- 
+
+Lâ ?
+
+An adverb of negation and particle of negative, "no", "not at all", "do not", "not" (with nouns and verbs). When followed by the aorist conditional it serves as a negative imperative. When used to deny the existence of a thing (equivalent to Laisa?????) it generally governs the accusative, which then loses nunnation. The particle is sometimes used to draw pointed attention to the subject which is about to be introduced and to signify that it is so clear and obvious that it needs no swearing or reason to support it, or it may be intended to repute an understood objection, as in 90:1, or in repudiation of what is said before, and an ellipse of the negative is to be observed as in 75:1, 2 (L; R; T; LL)
