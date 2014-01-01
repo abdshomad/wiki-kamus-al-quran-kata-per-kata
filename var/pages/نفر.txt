@@ -1,1 +1,3 @@
 نفر = sekumpulan
+
+nafara = sekumpulan yang berjumlah 3 sampai 9, atau 3 sampai 10 orang

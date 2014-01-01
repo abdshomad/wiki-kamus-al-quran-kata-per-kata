@@ -1,5 +1,7 @@
 طباقا = bertingkat-tingkat
 
+serasi, bertingkat-tingkat
+
 ----
 
 !References 

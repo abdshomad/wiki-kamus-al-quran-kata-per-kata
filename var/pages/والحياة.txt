@@ -1,1 +1,4 @@
 والحياة = dan kehidupan
+
+hidup = sesuatu yang berfungsi sesuai dengan tujuan dia diciptakan. 
+contoh: hidupkan lampu (fungsikan dia), matikan lampu

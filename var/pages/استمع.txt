@@ -1,1 +1,3 @@
 استمع = mendengarkan
+
+istama'a = mendengarkan dengan tekun
